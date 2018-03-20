@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Sultan Banabila</title>
+        <script src="script.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="shortcut icon" href="res/images/icon.ico">
+        <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body onresize="resetNav()" onload="defineVars()" onScroll="floatIntoView()">
+        <header>
+
+            <div class="phone-div" onclick="expand()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+
+            <nav id="main-nav">
+                <p onclick="showAbout()" id="about-nav">About</p>
+                <p onclick="showEducation()">Education</p>
+                <p onClick="showProjects()">Projects</p>
+                <p onclick="showVolunteering()">Volunteering</p>
+                <p onclick="showHobbies()">Hobbies</p>
+                <p onclick="showContact()">Contact</p>
+            </nav>
+
+            <div class="img-div">
+                <h1 class="welcome">Welcome to my ePortfolio</h1>
+            </div>
+        </header>
+
+        <div class="main-container">
+            <section id="about-section">
+                <a id="about"><h2>About</h2></a>
+                
+                <img src="res/images/profile.JPG" alt="me" class="profile-img">
+                <p class="name_p">My name is Sultan Banabila.</p>
+                
+                <img class="university" src="res/images/Dal_logo.jpg" alt="Dal-logo">
+                <p class="uni_p">I am a second year student at Dalhousie university majoring in the bachelor computer science.</p>
+                
+                <img class="SA" src="res/images/SA-flag.GIF" alt="SA-flag">
+                <p class="SA_p">I hail from the kingdom of Saudi Arabia.</p>
+            </section>
+
+            <hr>
+
+            <section class="education">
+                <a id="education"><h2>Education</h2></a>
+                
+                <div class="highschool-div">
+                <img class="highschool_img" src="res/images/Hamzah-logo.jpg" alt="highschool-logo">
+                <p class="highschool_p">I graduated high school in 2013.</p>
+                </div>
+                
+                <div class="vanwest-div">
+                <img class="vanwest" src="res/images/vanwest-logo.jpg" alt="vanwest logo">
+                <p>I graduated from VanWest College in 2015.</p>
+                </div>
+                
+                <div class="Ielts-div">
+                <img class="ielts-logo" src="res/images/ielts-logo.jpg" alt="ielts logo">
+                <p>I received a score of 7.0 on the IELTS exam.</p>
+                </div>
+            </section>
+            
+                <hr>
+            
+            <section class="projects-section">
+                <a id="projects"><h2>Projects</h2></a>
+                <div class='voice-recorder'>
+                <a href="https://github.com/smob123/VoiceRecorder" target="_blank">
+                <img src="res/images/voice-recorder.jpg" alt="voice recorder">
+                </a>
+                <p>Voice recorder for Android</p>
+                </div>
+                
+                <div class='Sultans-kitchen'>
+                <a href="https://github.com/smob123/Sultan-s-Kitchen" target='_blank'>
+                    <img src="res/images/Sultan's Kitchen.PNG" alt="Sultan's Kitchen">
+                </a>
+                <p>Sultan's Kitchen</p>
+                </div>
+            </section>
+
+            <hr>
+
+            <section class="volunteering">
+                <a id="volunteering"><h2>Volunteering</h2></a>
+
+                <div class="faisaliya">
+                <h3>Conducting a Party for Orphans</h3>
+                <img src="res/images/faisaliya-logo.jpg" alt="">
+                </div>
+
+                <div class="english-bay">
+                <h3>Cleaning English Bay in Vancouver, BC</h3>
+                <img src="res/images/englishBayCleaning.jpg" alt="img">
+                </div>
+
+                <div class="udl">
+                <h3>A help desk person for a UDL (Universal Design for Learning) conference</h3>
+                <img src="res/images/udl_poster.jpg" alt="url-poster">
+                </div>
+            </section>
+
+            <hr>
+
+            <section id="hobbies-section">
+                <a id="hobbies"><h2>Hobbies</h2></a>
+
+                <h3><strong>Taking risks</strong></h3>
+                <div class="bungee">
+                <img src="res/images/bungee.JPG" alt="bungee jumping">
+                <p>A big part of my life, is trying new things, and taking risks; however, this does not mean being reckless, as
+                    safety always comes first.</p>
+                </div>
+
+                <div class='photography'>
+                    <h3>Phone Photography</h3>
+                    <img src='res/images/pp1.JPG' alt='photo1'>
+                    <img src='res/images/pp2.JPG' alt='photo2'>
+                    <img src='res/images/pp3.jpg' alt='photo3'>
+                </div>
+
+                <h3>Cooking</h3>
+                <img src='res/images/cooking.png' alt='cooking' class='cooking'>
+               </section>
+        </div>
+
+        <footer>
+            <section id="contact">
+                <h3>Contact</h3>
+                <p>e-mail: smob123@hotmail.com</p>
+                <p>Phone number: +1 902-393-8090</p>
+                
+                <a href="https://github.com/smob123" target="_blank">
+                    <p class="github">Github</p>
+                </a>
+            </section>
+            
+            <div>
+            <p>All copyrights of this website belong to Sultan Banabila &copy;.</p>
+            </div>
+        </footer>
+    </body>
+</html>
