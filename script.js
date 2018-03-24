@@ -1,80 +1,91 @@
 var about, education, projects, volunteering, hobbies, contact;
 var elements = new Array();
-//var id = setInterval(floatIntoView, 500);
 
 function defineVars() {
     about = document.getElementById("about-section");
-    education = document.getElementById("education");
-    projects = document.getElementById("projects");
-    volunteering = document.getElementById("volunteering");
+    education = document.getElementById("education-section");
+    projects = document.getElementById("projects-section");
+    volunteering = document.getElementById("volunteering-section");
     hobbies = document.getElementById("hobbies-section");
     contact = document.getElementById("contact");
 
-    elements.push(about, education, projects, volunteering, hobbies, contact);
+    elements.push(about, education, projects, volunteering, hobbies);
 }
 
 function showAbout() {
-    about.scrollIntoView(true);
+    /*about.scrollIntoView(true);
     if (window.innerWidth >= 960) {
         window.scrollBy(0, -100);
-    }
+    }*/
+    
+    document.querySelector('#about-section').scrollIntoView({
+        block: 'start',
+        inline: "nearest",
+        behavior: 'smooth'
+    });
 }
 
 function showEducation() {
-    education.scrollIntoView(true);
-    if (window.innerWidth >= 960) {
-        window.scrollBy(0, -100);
-    }
+    document.querySelector("#education-section").scrollIntoView( {
+       behavior: 'smooth' 
+    });
 }
 
 function showProjects() {
-    projects.scrollIntoView(true);
-    if (window.innerWidth >= 960) {
-        window.scrollBy(0, -100);
-    }
+    document.querySelector('#projects-section').scrollIntoView( {
+        behavior: 'smooth'
+    });
 }
 
 function showVolunteering() {
-    volunteering.scrollIntoView(true);
-    if (window.innerWidth >= 960) {
-        window.scrollBy(0, -100);
-    }
+    document.querySelector('#volunteering-section').scrollIntoView( {
+       behavior: 'smooth' 
+    });
 }
 
 function showHobbies() {
-    hobbies.scrollIntoView(true);
+    /*hobbies.scrollIntoView(true);
     if (window.innerWidth >= 960) {
         window.scrollBy(0, -100);
-    }
+    }*/
+    
+    document.querySelector('#hobbies-section').scrollIntoView( {
+        block: 'start',
+        inline: "nearest",
+       behavior: 'smooth' 
+    });
 }
 
 function showContact() {
-    contact.scrollIntoView(false);
+    //contact.scrollIntoView(false);
+    document.querySelector('#contact').scrollIntoView( {
+        behavior: 'smooth'
+    });
 }
 
 function expand() {
-    if (document.getElementById("main-nav").style.display === "none") {
-        document.getElementById("main-nav").style.display = "block";
+    if (document.getElementById("main-nav").style.opacity === "0") {
+        document.getElementById("main-nav").style.opacity = "1";
         return;
     } else {
-        document.getElementById("main-nav").style.display = "none";
+        document.getElementById("main-nav").style.opacity = "0";
         return;
     }
 }
 
 function resetNav() {
     if (window.innerWidth >= 960) {
-        document.getElementById("main-nav").style.display = "inline";
+        document.getElementById("main-nav").style.opacity = "1";
     }
 }
 
 function floatIntoView() {
     if (elements !== undefined) {
-        //console.log(about.getBoundingClientRect().top + " " + window.innerHeight);
         for (var i = 0; i < elements.length; i++) {
             if (elements[i] !== undefined) {
                 if (window.innerHeight >= elements[i].getBoundingClientRect().top) {
-                    elements[i].style.transition = "all 1.1s ease-out";
+                    elements[i].style.transition = "0.5s ease-in";
+                    elements[i].style.opacity = "1";
                 }
             }
         }

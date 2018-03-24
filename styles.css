@@ -8,24 +8,60 @@
         width: 100%;
     }
     
+    .img-div {
+        width: 100%;
+        height: 30vh;
+        background: url("res/images/header.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    
     .phone-div {
         position: absolute;
-        top: 5px;
         width: 40px;
         height: 25px;
         cursor: pointer;
+        z-index: 3;
     }
 
     .phone-div div {
         width: 40px;
         height: 5px;
         background-color: black;
-        margin-bottom: 5px;
+        margin-bottom: 10px;
+        margin-top: 0;
     }
     
     #main-nav {
-        position: relative;
+        position: absolute;
+        margin-top: 0.5%;
+        margin-left: 0;
+        text-align: center;
+        width: 100%;
+        height: 30vh;
         margin-bottom: 40%;
+        z-index: 2;
+        opacity: 0;
+        transition-duration: 1s;
+        -webkit-transition-duration: 1s;
+        background-color: white;
+    }
+    
+    #main-nav button {
+        position: relative;
+        background-color: white;
+        border: 1px solid gray;
+        width: 50%;
+        margin-bottom: 3%;
+        border-radius: 20px;
+        cursor: pointer;
+        transition-duration: 1s;
+        -webkit-transition-duration: 1s;
+    }
+    
+    #main-nav button:hover {
+        background-color: gray;
+        color: white;
     }
 
     .img-div {
@@ -42,17 +78,11 @@
     }
 
     .main-container {
-        bottom: 250px;
         position: relative;
     }
     
     .university {
         margin-bottom: 5%;
-    }
-    
-    #hobbies-section {
-        margin-bottom: 0;
-        height: 130vh;
     }
     
     #hobbies-section img {
@@ -66,7 +96,7 @@
     }
 }
 
-@media screen and (max-width: 1023px) {
+@media only screen and (min-width: 481px) and (max-width: 1023px)  {
     * {
         text-align: center;
     }
@@ -77,6 +107,8 @@
     
     .header-img {
         max-width: 100%;
+        height: 10vh;
+        background: url("res/images/header.png");
     }
     
     .phone-div {
@@ -95,15 +127,35 @@
     }
 
     #main-nav {
-        display: none;
-        top: 45px;
-        position: relative;
-        height: 90px;
+        position: absolute;
+        text-align: center;
+        background-color: white;
+        width: 100%;
+        height: 90vh;
+        z-index: 1;
+        transition-duration: 1s;
+        -webkit-transition-duration: 1s;
     }
 
-    #main-nav p {
+    #main-nav button {
         position: relative;
-        bottom: 45px;
+        text-align: center;
+        background-color: white;
+        border: 1px solid gray;
+        border-radius: 20px;
+        display: block;
+        cursor: pointer;
+        width: 25%;
+        margin-bottom: 2%;
+        margin-left: 40%;
+        z-index: 2;
+        transition-duration: 0.5s;
+        -webkit-transition-duration: 0.5s;
+    }
+    
+    #main-nav button:hover {
+        background-color: gray;
+        color: white;
     }
     
     .img-div {
@@ -122,13 +174,13 @@
         top: 50px;
     }
     
-    #about-section {
-        border: 1px solid black;
-    }
-    
     .university {
         margin-left: 25%;
         display: block;
+    }
+    
+    #hobbies-section {
+        margin-bottom: 15%;
     }
 
     footer {
@@ -138,11 +190,11 @@
     }
 }
 @media screen and (min-width: 1024px) {
-
+    
     body {
         max-width: 2000px;
-        margin: auto;
         overflow: auto;
+        margin: auto;
     }
 
     nav {
@@ -157,17 +209,21 @@
         z-index: 1000;
     }
 
-    nav p {
+    nav button {
         display: inline;
         position: relative;
         top: 50%;
         margin-right: 50px;
+        width: 10%;
         cursor: pointer;
-        border: 2px solid black;
-        border-radius: 10px;
+        background-color: white;
+        border: 2px solid gray;
+        border-radius: 20px;
+        transition-duration: 1s;
+        -webkit-transition-duration: 1s;
     }
     
-    nav p:hover {
+    nav button:hover {
         background: gray;
         color: white;
     }
@@ -197,7 +253,7 @@
     
     #about-section {
         position: relative;
-        display: inline;
+        display: block;
     }
     
     #about-section h2 {
@@ -206,7 +262,6 @@
 
     .profile-img {
         margin-top: 3%;
-        position: relative;
         margin-left: 10%;
         width: 35%;
         float: left;
@@ -256,11 +311,7 @@
         margin-bottom: 20%;
     }
     
-    .education {
-        display: inline;
-    }
-    
-    .education h2 {
+    #education-section h2 {
         text-align: center;
     }
     
@@ -314,7 +365,7 @@
         box-shadow: 0 0 5px 5px black;
     }
     
-    #projects {
+    #projects-section {
         text-align: center;
     }
     
@@ -342,11 +393,11 @@
         margin-bottom: 6%;
     }
     
-    .volunteering img {
+    #volunteering-section img {
         box-shadow: 0 0 5px 5px black;
     }
     
-    .volunteering h2 {
+    #volunteering-section h2 {
         text-align: center;
         margin-bottom: 5%;
     }
@@ -405,9 +456,7 @@
     }
 
     footer {
-        position: relative;
-        top: 100px;
-        text-align: center;
+        margin-top: 5%;
         background-color: gray;
     }
 }
@@ -419,6 +468,10 @@
 
 body {
     margin: 0;
+}
+
+section {
+    opacity: 0;
 }
 
 header {
@@ -439,9 +492,12 @@ nav p {
 }
 
 #contact {
- text-align: left;
  color: white;
  background-color: #100939;
+}
+
+footer {
+    height: 100%;
 }
 
 footer * {
@@ -456,10 +512,19 @@ footer a:hover {
     text-align: center;
     color: gold;
 }
+
 .github {
-    width: 4%;
+    background-color: #100939;
+    border-radius: 20px;
+    color: white;
+    width: 20%;
+    margin-bottom: 3%;
 }
 
 .github:hover {
+    cursor: pointer;
+    transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+    width: 25%;
     color: gold;
 }

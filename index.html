@@ -21,12 +21,12 @@
             </div>
 
             <nav id="main-nav">
-                <p onclick="showAbout()" id="about-nav">About</p>
-                <p onclick="showEducation()">Education</p>
-                <p onClick="showProjects()">Projects</p>
-                <p onclick="showVolunteering()">Volunteering</p>
-                <p onclick="showHobbies()">Hobbies</p>
-                <p onclick="showContact()">Contact</p>
+                <button onclick="showAbout()" id="about-nav">About</button>
+                <button onclick="showEducation()">Education</button>
+                <button onClick="showProjects()">Projects</button>
+                <button onclick="showVolunteering()">Volunteering</button>
+                <button onclick="showHobbies()">Hobbies</button>
+                <button onclick="showContact()">Contact</button>
             </nav>
 
             <div class="img-div">
@@ -36,12 +36,12 @@
 
         <div class="main-container">
             <section id="about-section">
-                <a id="about"><h2>About</h2></a>
+                <h2>About</h2>
                 
                 <img src="res/images/profile.JPG" alt="me" class="profile-img">
                 <p class="name_p">My name is Sultan Banabila.</p>
                 
-                <img class="university" src="res/images/Dal_logo.jpg" alt="Dal-logo">
+               <img class="university" src="res/images/Dal_logo.jpg" alt="Dal-logo">
                 <p class="uni_p">I am a second year student at Dalhousie university majoring in the bachelor computer science.</p>
                 
                 <img class="SA" src="res/images/SA-flag.GIF" alt="SA-flag">
@@ -50,8 +50,8 @@
 
             <hr>
 
-            <section class="education">
-                <a id="education"><h2>Education</h2></a>
+            <section id="education-section">
+                <h2>Education</h2>
                 
                 <div class="highschool-div">
                 <img class="highschool_img" src="res/images/Hamzah-logo.jpg" alt="highschool-logo">
@@ -71,8 +71,8 @@
             
                 <hr>
             
-            <section class="projects-section">
-                <a id="projects"><h2>Projects</h2></a>
+            <section id="projects-section">
+                <h2>Projects</h2>
                 <div class='voice-recorder'>
                 <a href="https://github.com/smob123/VoiceRecorder" target="_blank">
                 <img src="res/images/voice-recorder.jpg" alt="voice recorder">
@@ -81,7 +81,7 @@
                 </div>
                 
                 <div class='Sultans-kitchen'>
-                <a href="https://github.com/smob123/Sultan-s-Kitchen" target='_blank'>
+                <a href="https://smob123.github.io/Sultan-s-Kitchen/" target='_blank'>
                     <img src="res/images/Sultan's Kitchen.PNG" alt="Sultan's Kitchen">
                 </a>
                 <p>Sultan's Kitchen</p>
@@ -90,8 +90,8 @@
 
             <hr>
 
-            <section class="volunteering">
-                <a id="volunteering"><h2>Volunteering</h2></a>
+            <section id="volunteering-section">
+                <h2>Volunteering</h2>
 
                 <div class="faisaliya">
                 <h3>Conducting a Party for Orphans</h3>
@@ -134,15 +134,15 @@
         </div>
 
         <footer>
-            <section id="contact">
+            <div id="contact">
                 <h3>Contact</h3>
                 <p>e-mail: smob123@hotmail.com</p>
                 <p>Phone number: +1 902-393-8090</p>
                 
                 <a href="https://github.com/smob123" target="_blank">
-                    <p class="github">Github</p>
+                    <button class="github">Github</button>
                 </a>
-            </section>
+            </div>
             
             <div>
             <p>All copyrights of this website belong to Sultan Banabila &copy;.</p>
