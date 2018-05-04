@@ -1,7 +1,6 @@
 import React, { Component }
 from 'react';
 import Typing from 'react-typing-animation';
-import $ from 'jquery';
 import ScrollAnimations from './components/Animations.js';
 import './res/styles/styles.css';
 
@@ -55,17 +54,17 @@ class App extends Component {
                         <div id='skills-content'>
                             <div id='web-development'>
                                 <h3>Web development</h3>
-                                <img src={require('./res/images/HTML5.png')}/>
-                                <img src={require('./res/images/CSS3.png')}/>
-                                <img src={require('./res/images/JS.png')}/>
-                                <img src={require('./res/images/jQuery.gif')}/>
-                                <img src={require('./res/images/React.png')}/>
+                                <img src={require('./res/images/HTML5.png')} alt='HTML5'/>
+                                <img src={require('./res/images/CSS3.png')} alt='CSS3'/>
+                                <img src={require('./res/images/JS.png')} alt='JS'/>
+                                <img src={require('./res/images/jQuery.gif')} alt='jQuery'/>
+                                <img src={require('./res/images/React.png')} alt='ReactJS'/>
                             </div>
                 
                             <div id='App-development'>
                                 <h3>App development</h3>
-                                <img src={require('./res/images/Java.png')} />
-                                <img src={require('./res/images/Android.png')}/>
+                                <img src={require('./res/images/Java.png')} alt ='Java'/>
+                                <img src={require('./res/images/Android.png')} alt='Android'/>
                             </div>
                         </div>
                     </section>
