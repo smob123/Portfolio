@@ -1,7 +1,7 @@
 {
   "homepage": "https://smob123.github.io/Portfolio",
   "name": "portfolio",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "dependencies": {
     "gh-pages": "^1.1.0",
