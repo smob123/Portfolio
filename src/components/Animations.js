@@ -8,15 +8,16 @@ class ScrollAnimations {
     setSections(s) {
         sections = s;
     }
-    
+
     setElements(e) {
         elems = e;
     }
 
     triggerAnimation() {
-        var controller = new ScrollMagic.Controller();
+        if (window.innerWidth >= 1024) {
+            var controller = new ScrollMagic.Controller();
 
-        for (var i = 0; i < sections.length; i++) {
+            for (var i = 0; i < sections.length; i++) {
                 new ScrollMagic.Scene({
                     triggerElement: sections[i],
                     duration: '100%',
@@ -24,15 +25,16 @@ class ScrollAnimations {
                 })
                         .setPin(sections[i], {pushFollowers: false})
                         .addTo(controller);
+            }
         }
-        
+
         this.displayElements();
     }
-    
+
     displayElements() {
         var controller = new ScrollMagic.Controller();
-        
-        for(var i = 0; i < elems.length; i++) {
+
+        for (var i = 0; i < elems.length; i++) {
             new ScrollMagic.Scene({
                 triggerElement: elems[i],
                 triggerHook: 0.5
