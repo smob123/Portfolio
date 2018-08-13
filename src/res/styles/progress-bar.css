@@ -1,0 +1,49 @@
+.container {
+    width: 100%;
+    margin: 0;
+}
+
+.name-div {
+    margin-bottom: 2%;
+}
+
+.skill-name {
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.bar-container {
+    display: inline-flex;
+    width: 100%;
+}
+
+.bar {
+    width: 70%;
+    height: 3vh;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+.fill {
+    width: 0;
+    margin: 0;
+    padding: 0;
+    background-color: orange;
+    height: inherit;
+    border-radius: inherit;
+    transition-duration: 2s;
+}
+
+.percentage-container {
+    margin: 0;
+    margin-left: 2%;
+    transition-duration: 2s;
+}
+
+.percentage {
+    margin: 0;
+    padding: 0;
+}
