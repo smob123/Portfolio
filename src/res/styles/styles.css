@@ -88,7 +88,6 @@ p {
     }
 
     .flappy-bird {
-        background: url('../images/flappy-bird.png');
         background-repeat: no-repeat;
         background-size: 100% 100%;
     }
@@ -206,41 +205,6 @@ p {
 
         #projects-section div {
             height: 50vh;
-        }
-
-    #projects-content {
-        opacity: 0;
-        transform: translate(0, 10%);
-        transition-duration: 1s;
-    }
-
-        #projects-content.fade-in {
-            opacity: 1;
-            transform: translate(0, 0);
-        }
-
-    .voice-recorder {
-        background: url('../images/voice-recorder.png');
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-    }
-
-    .Sultans-kitchen {
-
-    }
-
-    .flappy-bird {
-        background: url('../images/flappy-bird.png');
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-    }
-
-    .overlay {
-        transition-duration: 1s;
-    }
-
-        .overlay:hover {
-            opacity: 1;
         }
 
     #contact {
@@ -406,58 +370,43 @@ p {
             padding-top: 7%;
         }
 
-    #contributions-content {
+    .contributions-content {
         text-align: center;
     }
 
-    #groceristar {
-        margin-top: 5%;
-        display: flex;
+    .contributions-content h2 {
+        margin-bottom: 5%;
     }
 
-        #groceristar div {
-            width: 50%;
-        }
+    .project-left {
+        display: flex;
+        padding-bottom: 10%;
+    }
 
-        #groceristar img {
-            position: relative;
-            width: 70%;
-        }
+    .project-left div {
+        width: 50%;
+    }
 
-        #groceristar li {
-            list-style: none;
-        }
+    .project-logo {
+        width: 500px;
+        height: 250px;
+    }
 
-        #groceristar button {
-            background-color: rgba(0, 0, 0, 0);
-            border: 1px solid black;
-            border-radius: 50px;
-            transition-duration: 1s;
-        }
-
-            #groceristar button:hover {
-                cursor: pointer;
-                color: orange;
-                border: 1px solid orange;
-            }
-
-    .rdcsi {
+    .project-right {
+        padding-bottom: 10%;
         display: flex;
         flex-direction: row-reverse;
-        margin-top: 5%;
     }
 
-        .rdcsi div {
-            width: 50%;
-        }
+    .project-right div {
+        width: 50%;
+    }
 
-        .rdcsi img {
-            width: 70%;
-        }
-
-        .rdcsi li {
-            list-style: none;
-        }
+    .tech {
+        margin-top: 5%;
+       width: 50px;
+       height: 50px;
+    }
 
     #projects-section {
         position: relative;
@@ -473,11 +422,8 @@ p {
         display: block;
     }
 
-    .project-details li {
-        list-style: none;
-    }
-
         .project-details button {
+            margin-top: 10px;
             background-color: rgba(0, 0, 0, 0);
             border: 1px solid black;
             border-radius: 50px;
@@ -486,34 +432,10 @@ p {
 
             .project-details button:hover {
                 cursor: pointer;
-                color: orange;
+                color: white;
+                background-color: orange;
                 border: 1px solid orange;
             }
-
-    .voice-recorder {
-        display: flex;
-    }
-
-    .Sultans-kitchen {
-        display: flex;
-        flex-direction: row-reverse;
-    }
-
-    .Sultans-kitchen div {
-        width: 50%;
-    }
-
-    .Sultans-kitchen img {
-        width: 70%;
-    }
-
-    .Sultans-kitchen li {
-        list-style: none;
-    }
-
-    .flappy-bird {
-        display: flex;
-    }
 
     #contact {
         position: relative;
@@ -579,8 +501,8 @@ p {
         text-align: center;
     }
 
-        .social-media * {
-            margin-right: 3%;
+        .linkedin-icon {
+            margin: 0 3% 0 3%;
         }
 
         .social-media img {

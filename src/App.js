@@ -3,6 +3,8 @@ import ScrollAnimations from './components/Animations.js';
 import './res/styles/styles.css';
 import $ from 'jquery';
 import Skills from './res/assets/skills';
+import Contributions from './res/assets/contributions';
+import Projects from './res/assets/projects';
 
 let scroll = new ScrollAnimations();
 
@@ -48,107 +50,10 @@ class App extends Component {
                             </section>
                         </div>
 
-                        <section id="contributions">
-                            <div id="contributions-content">
-                                <h2>Contributions</h2>
-                                <div id="groceristar">
-                                    <div>
-                                        <img src={require('./res/images/groceristar.PNG')} />
-                                    </div>
-                                    <div>
-                                        <span><strong>Groceristar's home-page</strong></span>
-                                        <br />
-                                        <span>An online grocery shopping app</span>
-                                        <br />
-                                        <span>Technologies used:</span>
-                                        <ul>
-                                            <li>Javascript</li>
-                                            <li>ReactJS</li>
-                                            <li>GatsbyJS</li>
-                                        </ul>
-                                        <a href='https://github.com/GroceriStar/onboarding-features' target='_blank'>
-                                            <button>View on Github</button>
-                                        </a>
-                                    </div>
-                                </div>
-
-                                <hr />
-
-                                <div class='rdcsi'>
-                                    <div>
-                                        <img src={require('./res/images/rdcsi.jpg')} />
-                                    </div>
-
-                                    <div>
-                                        <span><strong>RDCSI mobile app</strong></span>
-                                        <br />
-                                        <span>A health app developed for both IOS and Android using hybrid app technology</span>
-                                        <br />
-                                        <span>Technologies used:</span>
-                                        <ul>
-                                            <li>Javascript</li>
-                                            <li>React Native</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
+                        <Contributions />
 
                         <section id="projects-section">
-                            <h2>Personal Projects</h2>
-                            <div id="projects-content">
-                                <div className='voice-recorder'>
-                                    <div>
-                                        <img src={require('./res/images/voice-recorder.png')} />
-                                    </div>
-                                    <div class='project-details'>
-                                        <span><strong>Android Voice Recorder</strong></span>
-                                        <ul>
-                                            <li>Java</li>
-                                            <li>Android</li>
-                                        </ul>
-                                        <a href="https://github.com/smob123/VoiceRecorder" target="_blank" rel="noopener noreferrer">
-                                            <button>View on GitHub</button>
-                                        </a>
-                                    </div>
-                                </div>
-
-                                <hr />
-
-                                <div className='Sultans-kitchen'>
-                                    <div>
-                                        <img src={require('./res/images/SultansKitchen.PNG')} />
-                                    </div>
-                                    <div className='project-details'>
-                                        <span><strong>Sultan's Kitchen</strong></span>
-                                        <ul>
-                                            <li>HTML</li>
-                                            <li>CSS</li>
-                                            <li>JavaScript</li>
-                                        </ul>
-                                        <a href="https://smob123.github.io/Sultan-s-Kitchen/" target='_blank' rel="noopener noreferrer">
-                                            <button>Visit website</button>
-                                        </a>
-                                    </div>
-                                </div>
-
-                                <hr />
-
-                                <div className="flappy-bird">
-                                    <div>
-                                        <img src={require('./res/images/flappy-bird.png')} />
-                                    </div>
-                                    <div className='project-details'>
-                                        <span><strong>Flappy Bird</strong></span>
-                                        <ul>
-                                            <li>Java</li>
-                                            </ul>
-                                        <a href='https://github.com/smob123/Games/tree/master/Flappy%20Bird' target='_blank' rel="noopener noreferrer">
-                                            <button>View on GitHub</button>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
+                                <Projects />
                         </section>
 
                         <div id="contact">
