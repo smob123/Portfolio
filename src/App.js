@@ -5,6 +5,7 @@ import $ from 'jquery';
 import Skills from './res/assets/skills';
 import Contributions from './res/assets/contributions';
 import Projects from './res/assets/projects';
+import Contact from './res/assets/contact';
 
 let scroll = new ScrollAnimations();
 
@@ -13,7 +14,7 @@ class App extends Component {
     navigationHandler(element) {
         scroll.bringUpSection(element);
     }
-
+    
     render() {
 
         return (
@@ -27,8 +28,8 @@ class App extends Component {
                             <p onClick={() => this.navigationHandler($('#contact'))}>Contact</p>
                         </nav>
                     </div>
-                    <div className='header'>
-                        <div className='header-overlay'>
+                    <div id='header'>
+                        <div id='header-overlay'>
                             <div className="name-container">
                                 <span>Sultan Banabila</span>
                                 <span> Web developer | Android developer</span>
@@ -46,7 +47,7 @@ class App extends Component {
 
                             <section id='skills-section'>
                                 <h2>My skills</h2>
-                                <Skills animate={false} />
+                                <Skills />
                             </section>
                         </div>
 
@@ -59,11 +60,7 @@ class App extends Component {
                         <div id="contact">
                             <div id='contact-content'>
                                 <h2>Contact</h2>
-                                <div>
-                                    <a href="mailto:sultanbanabila@gmail.com">
-                                        <button>Send me an email</button>
-                                    </a>
-                                </div>
+                                    <Contact />
                             </div>
                         </div>
 

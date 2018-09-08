@@ -8,7 +8,7 @@ let className = '';
 
 for (let i = 0; i < data.length; i++) {
     for (let j = 0; j < data[i].technologies.length; j++) {
-        tech.push(<img src={data[i].technologies[j]} className='tech' />);
+        tech.push(<img src={data[i].technologies[j]} key={i} className='tech' />);
     }
 
     i % 2 === 0 ? className = 'project-left' : className = 'project-right';
@@ -35,7 +35,7 @@ for (let i = 0; i < data.length; i++) {
             </div>
         </div>
     );
-
+    
     tech = [];
 }
 

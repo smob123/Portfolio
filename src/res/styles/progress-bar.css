@@ -34,7 +34,7 @@
     background-color: orange;
     height: inherit;
     border-radius: inherit;
-    transition-duration: 2s;
+    transition: width 1.5s ease;
 }
 
 .percentage-container {

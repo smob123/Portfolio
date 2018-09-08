@@ -9,13 +9,13 @@ let className = '';
 for (let i = 0; i < data.length; i++) {
 
     for (let j = 0; j < data[i].technologies.length; j++) {
-        tech.push(<img src={data[i].technologies[j]} className='tech' />);
+        tech.push(<img src={data[i].technologies[j]} className='tech' key={j} />);
     }
 
    i % 2 === 0 ? className = 'project-left' : className = 'project-right';
 
     projects.push(
-        <div className={className}>
+        <div className={className} key={i}>
             <div>
                 <img src={data[i].logo} className='project-logo' />
             </div>

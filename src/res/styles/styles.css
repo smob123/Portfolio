@@ -27,6 +27,7 @@ p {
     }
 
     #img-div {
+        background-image: url('../images/header.jpg');
         background-repeat: no-repeat;
         background-size: 100% 100%;
         height: 50vh;
@@ -284,14 +285,14 @@ p {
             cursor: pointer;
         }
 
-    .header {
+    #header {
         height: 100vh;
         background: url('../images/header.jpg');
-        background-size: 100% 100vh;
+        background-size: cover;
         background-repeat: no-repeat;
     }
 
-    .header-overlay {
+    #header-overlay {
         width: 100%;
         height: 100%;
         background-color: rgba(0, 0, 0, 0.7);
@@ -329,6 +330,7 @@ p {
 
     .card-container {
         background-color: #e8e8e8;
+        padding-top: 10%;
     }
 
     #about-container {
@@ -337,8 +339,8 @@ p {
         left: 50%;
         transform: translate(-50%, 0);
         justify-content: space-between;
-        width: 80%;
-        height: 100vh;
+        max-width: 1500px;
+        margin-bottom: 10%;
     }
 
     #about-section {
@@ -372,6 +374,7 @@ p {
 
     .contributions-content {
         text-align: center;
+        max-width: 1500px;
     }
 
     .contributions-content h2 {
@@ -411,6 +414,7 @@ p {
     #projects-section {
         position: relative;
         text-align: center;
+        max-width: 1500px;
     }
 
         #projects-section h2 {
@@ -440,12 +444,13 @@ p {
     #contact {
         position: relative;
         text-align: center;
-        height: 100vh;
         background-color: #DCDCDC;
+        padding-bottom: 5%;
     }
 
     #contact-content {
         transition-duration: 1s;
+        max-width: 1500px;
     }
 
     #contact h2 {
@@ -454,13 +459,20 @@ p {
 
     #contact-content div {
         position: relative;
-        margin-top: 10%;
+        margin-top: 5%;
     }
 
-    #contact-content a {
-        display: inline-block;
+    #contact-content input {
+        display: block;
         width: 30%;
-        text-decoration: none;
+        margin-bottom: 2%;
+        text-align: center;
+    }
+
+    #contact-content textarea {
+        width: 35%;
+        height: 100px;
+        margin-bottom: 1%;
     }
 
     #contact button {
@@ -469,7 +481,7 @@ p {
         background-color: rgba(0, 0, 0, 0);
         border: 1px solid black;
         border-radius: 50px;
-        width: 100%;
+        width: 20%;
         transition-duration: 1s;
     }
 
