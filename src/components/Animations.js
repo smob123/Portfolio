@@ -19,11 +19,13 @@ class ScrollAnimations {
     }
 
     navHandler() {
-        if ($('#main-nav').css('display') === 'none') {
-            $('#main-nav').css('display', 'block');
+        if ($('#main-nav').css('opacity') === '0') {
+            $('#main-nav').css({ 'opacity': '1', 'pointer-events': 'auto'});
+            $('#phone-div div').css({ 'background-color': '#000'});
         }
         else {
-            $('#main-nav').css('display', 'none');
+            $('#main-nav').css('opacity', '0');
+            $('#phone-div div').css({ 'background-color': '#fff' });
         }
     }
 }

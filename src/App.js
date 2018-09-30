@@ -38,7 +38,7 @@ class App extends Component {
                             <p onClick={() => this.navigationHandler($('#contact'))}>Contact</p>
                         </nav>
                     </div>
-                    <div id='header'>
+                    <header id='header'>
                         <div id='header-overlay'>
                             <div className="name-container">
                                 <span>Sultan Banabila</span>
@@ -46,7 +46,7 @@ class App extends Component {
                                 <button onClick={() => this.navigationHandler($('#contact'))}>Yes, I'm available for hire</button>
                             </div>
                         </div>
-                    </div>
+                    </header>
                     <div className="card-container">
                         <div id='about-container'>
                             <section id='about-section'>
