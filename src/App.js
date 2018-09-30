@@ -7,7 +7,7 @@ import Contributions from './res/assets/contributions';
 import Projects from './res/assets/projects';
 import Contact from './res/assets/contact';
 
-let scroll = new ScrollAnimations();
+let scroll;
 
 class App extends Component {
 
@@ -17,6 +17,10 @@ class App extends Component {
 
     navDisplay() {
         scroll.navHandler();
+    }
+
+    componentDidMount() {
+        scroll = new ScrollAnimations();
     }
     
     render() {

@@ -8,16 +8,6 @@ class ScrollAnimations {
         }, 1000);
     }
 
-    isVisible(elemTop) {
-        console.log('scroll');
-        let windowBottom = $(window).scrollTop() + $(window).height();
-
-        if (elemTop <= windowBottom) {
-            console.log('yup');
-            return true;
-        }
-    }
-
     navHandler() {
         if ($('#main-nav').css('opacity') === '0') {
             $('#main-nav').css({ 'opacity': '1', 'pointer-events': 'auto'});

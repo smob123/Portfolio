@@ -32,7 +32,7 @@ let voiceRecorder = {
 let sultansKitchen = {
     logo: SultansKitchen,
     title: "Sultan's Kitchen",
-    description: 'An imagenary resturant website',
+    description: 'A fictional resturant website',
     link: 'https://github.com/smob123/Sultan-s-Kitchen',
     technologies: [
         HTML5,
