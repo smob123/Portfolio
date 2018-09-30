@@ -27,7 +27,7 @@ for (let i = 0; i < data.length; i++) {
                 
                     <a href={data[i].link} target='_blank'>
                         <button>View on GitHub</button>
-                    </a>
+                </a>
 
                 <br />
                 {tech}

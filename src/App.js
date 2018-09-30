@@ -14,6 +14,10 @@ class App extends Component {
     navigationHandler(element) {
         scroll.bringUpSection(element);
     }
+
+    navDisplay() {
+        scroll.navHandler();
+    }
     
     render() {
 
@@ -21,7 +25,13 @@ class App extends Component {
             <main>
                 <div className="main-container">
                     <div className="nav-container">
-                        <nav className="main-nav">
+                        <div id='phone-div' onClick={() => this.navDisplay()}>
+                            <div className='nav-bar1'></div>
+                            <div className='nav-bar2'></div>
+                            <div className='nav-bar3'></div>
+                        </div>
+
+                        <nav id="main-nav">
                             <p onClick={() => this.navigationHandler($('#about-container'))}>About</p>
                             <p onClick={() => this.navigationHandler($('#contributions'))}>Contributions</p>
                             <p onClick={() => this.navigationHandler($('#projects-section'))}>Personal projects</p>

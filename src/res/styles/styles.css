@@ -26,12 +26,90 @@ p {
         text-align: center;
     }
 
-    #img-div {
+    .nav-container {
+        padding-top: 3%;
+        padding-bottom: 3%;
+        float: left;
+        width: 100%;
+    }
+
+    #phone-div {
+        margin-left: 2%;
+        cursor: pointer;
+        float: left;
+    }
+
+        #phone-div div {
+            width: 50px;
+            height: 5px;
+            background-color: antiquewhite;
+        }
+
+    .nav-bar1, .nav-bar2 {
+        margin-bottom: 20%;
+    }
+
+    #main-nav {
+        display: none;
+        background-color: white;
+        float: left;
+        width: 100%;
+        height: 100vh;
+    }
+
+        #main-nav p {
+            position: relative;
+            top: 50%;
+            transform: translate(0, -50%);
+        }
+
+    #header {
         background-image: url('../images/header.jpg');
         background-repeat: no-repeat;
         background-size: 100% 100%;
-        height: 50vh;
+        height: 100vh;
     }
+
+    #header-overlay {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    .name-container {
+        position: relative;
+        top: 50%;
+        transform: translate(0, -50%);
+        text-align: center;
+    }
+
+        .name-container span {
+            display: block;
+            color: #f9f9f9;
+            margin-bottom: 2%;
+        }
+
+        .name-container button {
+            display: block;
+            margin-left: 25%;
+            width: 60%;
+            color: #f9f9f9;
+            background-color: rgba(0, 0, 0, 0);
+            border: 1px solid white;
+            border-radius: 50px;
+            transition-duration: 1s;
+        }
+
+            .name-container button:hover {
+                cursor: pointer;
+                color: #f49b42;
+                border: 1px solid #f49b42;
+            }
+
+
+        .name-container span {
+            color: white;
+        }
 
     #about-section {
         background-color: white;
@@ -85,7 +163,6 @@ p {
     }
 
     .Sultans-kitchen {
-
     }
 
     .flappy-bird {
@@ -266,7 +343,7 @@ p {
         height: 5vh;
     }
 
-    .main-nav {
+    #main-nav {
         width: 100%;
         text-align: center;
     }
@@ -362,6 +439,18 @@ p {
             transform: translate(-50%, 0);
         }
 
+    .skill-conatiner {
+        margin: 0;
+    }
+
+        .skill-conatiner div {
+            margin-bottom: 3%;
+        }
+
+    .skill-conatiner span {
+        margin-left: 2%;
+    }
+
     #contributions {
         position: relative;
         text-align: center;
@@ -377,18 +466,18 @@ p {
         max-width: 1500px;
     }
 
-    .contributions-content h2 {
-        margin-bottom: 5%;
-    }
+        .contributions-content h2 {
+            margin-bottom: 5%;
+        }
 
     .project-left {
         display: flex;
         padding-bottom: 10%;
     }
 
-    .project-left div {
-        width: 50%;
-    }
+        .project-left div {
+            width: 50%;
+        }
 
     .project-logo {
         width: 500px;
@@ -401,14 +490,14 @@ p {
         flex-direction: row-reverse;
     }
 
-    .project-right div {
-        width: 50%;
-    }
+        .project-right div {
+            width: 50%;
+        }
 
     .tech {
         margin-top: 5%;
-       width: 50px;
-       height: 50px;
+        width: 50px;
+        height: 50px;
     }
 
     #projects-section {
@@ -513,11 +602,11 @@ p {
         text-align: center;
     }
 
-        .linkedin-icon {
-            margin: 0 3% 0 3%;
-        }
+    .linkedin-icon {
+        margin: 0 3% 0 3%;
+    }
 
-        .social-media img {
-            width: 4%;
-        }
+    .social-media img {
+        width: 4%;
+    }
 }

@@ -17,6 +17,15 @@ class ScrollAnimations {
             return true;
         }
     }
+
+    navHandler() {
+        if ($('#main-nav').css('display') === 'none') {
+            $('#main-nav').css('display', 'block');
+        }
+        else {
+            $('#main-nav').css('display', 'none');
+        }
+    }
 }
 
 export default ScrollAnimations;

@@ -33,7 +33,7 @@ let sultansKitchen = {
     logo: SultansKitchen,
     title: "Sultan's Kitchen",
     description: 'An imagenary resturant website',
-    link: 'https://smob123.github.io/Sultan-s-Kitchen/',
+    link: 'https://github.com/smob123/Sultan-s-Kitchen',
     technologies: [
         HTML5,
         CSS3,
