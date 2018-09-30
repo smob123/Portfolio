@@ -2,8 +2,8 @@ import JS from '../images/JS.png';
 import React from '../images/React.png';
 import Gatsby from '../images/Gatsby.png';
 import ReactNative from '../images/ReactNative.png';
-import Groceristar from '../images/Groceristar.PNG';
-import RDCSI from '../images/RDCSI.jpg';
+import Groceristar from '../images/groceristar.PNG';
+import RDCSI from '../images/rdcsi.jpg';
 
 let groceristar = {
     logo: Groceristar,
