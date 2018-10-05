@@ -4,7 +4,7 @@ import data from '../data/projects-data';
 
 let projects = [];
 let tech = [];
-let className = '';
+let className, imageClassName;
 
 for (let i = 0; i < data.length; i++) {
 
@@ -12,22 +12,32 @@ for (let i = 0; i < data.length; i++) {
         tech.push(<img src={data[i].technologies[j]} className='tech' key={j} alt={data[i].title} />);
     }
 
-   i % 2 === 0 ? className = 'project-left' : className = 'project-right';
+    i % 2 === 0 ? className = 'project-left' : className = 'project-right';
+
+    data[i].type === 'mobile-app' ? imageClassName = 'mobile-app-img' : imageClassName = 'website-img';
 
     projects.push(
         <div className={className} key={i}>
             <div>
-                <img src={data[i].logo} className='project-logo' alt={data[i].title} />
+                <img src={data[i].logo} className={imageClassName} alt={data[i].title} />
+                <img src={data[i].logo} className={imageClassName} id='reflection' alt={data[i].title} />
             </div>
 
             <div className='project-details'>
                 <h3>{data[i].title}</h3>
                 <span>{data[i].description}</span>
                 < br />
-                
-                    <a href={data[i].link} target='_blank'>
-                        <button>View on GitHub</button>
+
+                <a href={data[i].link} target='_blank'>
+                    <button>View on GitHub</button>
                 </a>
+
+                {
+                    data[i].url !== undefined &&
+                    <a href={data[i].url} target='_blank'>
+                        <button>Visit website</button>
+                    </a>
+                }
 
                 <br />
                 {tech}

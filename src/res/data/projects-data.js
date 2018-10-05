@@ -16,7 +16,8 @@ let restaurantFinder = {
     technologies: [
         JS,
         ReactNative
-    ]
+    ],
+    type: 'mobile-app'
 };
 
 let voiceRecorder = {
@@ -26,7 +27,8 @@ let voiceRecorder = {
     link: 'https://github.com/smob123/VoiceRecorder',
     technologies: [
         Java
-    ]
+    ],
+    type: 'mobile-app'
 };
 
 let sultansKitchen = {
@@ -34,11 +36,13 @@ let sultansKitchen = {
     title: "Sultan's Kitchen",
     description: 'A fictional resturant website',
     link: 'https://github.com/smob123/Sultan-s-Kitchen',
+    url: 'https://smob123.github.io/Sultan-s-Kitchen/',
     technologies: [
         HTML5,
         CSS3,
         JS
-    ]
+    ],
+    type: 'website'
 };
 
 let flappyBird = {
@@ -48,7 +52,8 @@ let flappyBird = {
     link: 'https://github.com/smob123/Games/tree/master/Flappy%20Bird',
     technologies: [
         Java
-    ]
+    ],
+    type: 'website'
 };
 
 let data = [restaurantFinder, voiceRecorder, sultansKitchen, flappyBird];

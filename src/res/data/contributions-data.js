@@ -14,7 +14,8 @@ let groceristar = {
         JS,
         React,
         Gatsby
-    ]
+    ],
+    type: 'website-img'
 };
 
 let rdcsi = {
@@ -24,7 +25,8 @@ let rdcsi = {
     technologies: [
         JS,
         ReactNative
-    ]
+    ],
+    type: 'website-img'
 };
 
 let data = [groceristar, rdcsi];
