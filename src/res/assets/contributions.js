@@ -15,8 +15,6 @@ for (let i = 0; i < data.length; i++) {
 
     data[i].type === 'mobile-app' ? imageClassName = 'mobile-app-img' : imageClassName = 'website-img';
 
-    let url = data[i].url !== undefined ? <a href={data[i].url} target='_blank'><button>Visit website</button></a> : '';
-
     projects.push(
         <div className={className} key={i + 1}>
             <div>

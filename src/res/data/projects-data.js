@@ -4,7 +4,7 @@ import Java from '../images/Java.png';
 import HTML5 from '../images/HTML5.png';
 import CSS3 from '../images/CSS3.png';
 import RestaurantFinder from '../images/RestaurantFinder.png';
-import VoiceRecorder from '../images/VoiceRecorder.png';
+import NewsApp from '../images/NewsApp.png';
 import SultansKitchen from '../images/SultansKitchen.PNG';
 import FlappyBird from '../images/FlappyBird.png';
 
@@ -20,11 +20,11 @@ let restaurantFinder = {
     type: 'mobile-app'
 };
 
-let voiceRecorder = {
-    logo: VoiceRecorder,
-    title: 'Voice Recorder',
-    description: 'A simple Android voice recorder',
-    link: 'https://github.com/smob123/VoiceRecorder',
+let newsApp = {
+    logo: NewsApp,
+    title: 'News app',
+    description: 'A simple Android news application',
+    link: 'https://github.com/smob123/News-App',
     technologies: [
         Java
     ],
@@ -56,6 +56,6 @@ let flappyBird = {
     type: 'website'
 };
 
-let data = [restaurantFinder, voiceRecorder, sultansKitchen, flappyBird];
+let data = [restaurantFinder, newsApp, sultansKitchen, flappyBird];
 
 export default data;
