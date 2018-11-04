@@ -28,13 +28,13 @@ for (let i = 0; i < data.length; i++) {
                 <span>{data[i].description}</span>
                 < br />
 
-                <a href={data[i].link} target='_blank'>
+                <a href={data[i].link} target='_blank' rel="noopener noreferrer">
                     <button>View on GitHub</button>
                 </a>
 
                 {
                     data[i].url !== undefined &&
-                    <a href={data[i].url} target='_blank'>
+                    <a href={data[i].url} target='_blank' rel="noopener noreferrer">
                         <button>Visit website</button>
                     </a>
                 }

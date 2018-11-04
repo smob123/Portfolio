@@ -88,12 +88,6 @@ class App extends Component {
                             <FontAwesomeIcon icon={faTwitter} size='2x' />
                         </a>
                     </div>
-
-                    <div className='credits'>
-                        <span>This site was inspired by &nbsp;
-                            <a href='https://html5up.net/stellar' target='_blank' rel="noopener noreferrer">this template</a>
-                        </span>
-                    </div>
                 </footer>
             </main>
         );
