@@ -1,9 +1,9 @@
 {
-  "main.css": "/Portfolio/static/css/main.a825f19f.chunk.css",
-  "main.js": "/Portfolio/static/js/main.251b0514.chunk.js",
-  "main.js.map": "/Portfolio/static/js/main.251b0514.chunk.js.map",
-  "static/js/1.d3d20d67.chunk.js": "/Portfolio/static/js/1.d3d20d67.chunk.js",
-  "static/js/1.d3d20d67.chunk.js.map": "/Portfolio/static/js/1.d3d20d67.chunk.js.map",
+  "main.css": "/Portfolio/static/css/main.8a07d061.chunk.css",
+  "main.js": "/Portfolio/static/js/main.30350c9e.chunk.js",
+  "main.js.map": "/Portfolio/static/js/main.30350c9e.chunk.js.map",
+  "static/js/1.c33a8422.chunk.js": "/Portfolio/static/js/1.c33a8422.chunk.js",
+  "static/js/1.c33a8422.chunk.js.map": "/Portfolio/static/js/1.c33a8422.chunk.js.map",
   "runtime~main.js": "/Portfolio/static/js/runtime~main.3b961160.js",
   "runtime~main.js.map": "/Portfolio/static/js/runtime~main.3b961160.js.map",
   "static/media/phone-laptop.png": "/Portfolio/static/media/phone-laptop.3eac64ff.png",
@@ -19,8 +19,8 @@
   "static/media/SultansKitchen.PNG": "/Portfolio/static/media/SultansKitchen.297c8bcf.PNG",
   "static/media/FlappyBird.png": "/Portfolio/static/media/FlappyBird.aac3940f.png",
   "static/media/Java.png": "/Portfolio/static/media/Java.16aac88e.png",
-  "static/css/main.a825f19f.chunk.css.map": "/Portfolio/static/css/main.a825f19f.chunk.css.map",
+  "static/css/main.8a07d061.chunk.css.map": "/Portfolio/static/css/main.8a07d061.chunk.css.map",
   "index.html": "/Portfolio/index.html",
-  "precache-manifest.5fe1d2049d11d86f46d1b32d3bf4af19.js": "/Portfolio/precache-manifest.5fe1d2049d11d86f46d1b32d3bf4af19.js",
+  "precache-manifest.7ddf5000e4d09ae49b5bd398e39160bb.js": "/Portfolio/precache-manifest.7ddf5000e4d09ae49b5bd398e39160bb.js",
   "service-worker.js": "/Portfolio/service-worker.js"
 }
