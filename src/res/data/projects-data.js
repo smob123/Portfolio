@@ -6,7 +6,6 @@ import CSS3 from '../images/CSS3.png';
 import RestaurantFinder from '../images/RestaurantFinder.png';
 import NewsApp from '../images/NewsApp.png';
 import SultansKitchen from '../images/SultansKitchen.PNG';
-import FlappyBird from '../images/FlappyBird.png';
 
 let restaurantFinder = {
     logo: RestaurantFinder,
@@ -45,17 +44,6 @@ let sultansKitchen = {
     type: 'website'
 };
 
-let flappyBird = {
-    logo: FlappyBird,
-    title: 'Flappy Bird',
-    description: 'Flappy Bird game clone',
-    link: 'https://github.com/smob123/Games/tree/master/Flappy%20Bird',
-    technologies: [
-        Java
-    ],
-    type: 'website'
-};
-
-let data = [restaurantFinder, newsApp, sultansKitchen, flappyBird];
+let data = [restaurantFinder, newsApp, sultansKitchen];
 
 export default data;
