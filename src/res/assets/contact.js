@@ -20,6 +20,8 @@ export default class Contact extends Component {
 
     submit = e => {
         e.preventDefault();
+        $('#message-submit').css({ 'cursor': 'progress' });
+        $('#message-submit').click(() => { return false });
         this.sendData(JSON.stringify(this.state));
     }
 
@@ -35,6 +37,7 @@ export default class Contact extends Component {
             .then((json) => {
                 if (json.message !== 'ok') {
                     alert(json.message);
+                    $('#message-submit').css({ 'cursor': 'pointer' });
                 }
                 else {
                     $('#contact-content form').css({ 'display': 'none' });
