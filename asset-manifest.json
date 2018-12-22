@@ -1,7 +1,7 @@
 {
-  "main.css": "/Portfolio/static/css/main.a825f19f.chunk.css",
-  "main.js": "/Portfolio/static/js/main.5ce153ee.chunk.js",
-  "main.js.map": "/Portfolio/static/js/main.5ce153ee.chunk.js.map",
+  "main.css": "/Portfolio/static/css/main.4e2b00ad.chunk.css",
+  "main.js": "/Portfolio/static/js/main.2cedac41.chunk.js",
+  "main.js.map": "/Portfolio/static/js/main.2cedac41.chunk.js.map",
   "static/js/1.8891b887.chunk.js": "/Portfolio/static/js/1.8891b887.chunk.js",
   "static/js/1.8891b887.chunk.js.map": "/Portfolio/static/js/1.8891b887.chunk.js.map",
   "runtime~main.js": "/Portfolio/static/js/runtime~main.3b961160.js",
@@ -16,10 +16,10 @@
   "static/media/CSS3.png": "/Portfolio/static/media/CSS3.9c1431e3.png",
   "static/media/RestaurantFinder.png": "/Portfolio/static/media/RestaurantFinder.4e33c865.png",
   "static/media/NewsApp.png": "/Portfolio/static/media/NewsApp.84ba5121.png",
-  "static/media/SultansKitchen.PNG": "/Portfolio/static/media/SultansKitchen.297c8bcf.PNG",
+  "static/media/SultansKitchen.PNG": "/Portfolio/static/media/SultansKitchen.a23e351c.PNG",
   "static/media/React.png": "/Portfolio/static/media/React.66657f5d.png",
-  "static/css/main.a825f19f.chunk.css.map": "/Portfolio/static/css/main.a825f19f.chunk.css.map",
+  "static/css/main.4e2b00ad.chunk.css.map": "/Portfolio/static/css/main.4e2b00ad.chunk.css.map",
   "index.html": "/Portfolio/index.html",
-  "precache-manifest.01e965dabb1873144627d453456a3c7d.js": "/Portfolio/precache-manifest.01e965dabb1873144627d453456a3c7d.js",
+  "precache-manifest.f4504dfdbaa7fee5de326fde3c24b78b.js": "/Portfolio/precache-manifest.f4504dfdbaa7fee5de326fde3c24b78b.js",
   "service-worker.js": "/Portfolio/service-worker.js"
 }

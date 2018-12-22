@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/rdcsi.b26ac17b.jpg"
   },
   {
-    "revision": "5ce153ee7b0551b7f2e2",
-    "url": "/Portfolio/static/css/main.a825f19f.chunk.css"
+    "revision": "2cedac4133acae6a5e34",
+    "url": "/Portfolio/static/css/main.4e2b00ad.chunk.css"
   },
   {
     "revision": "8891b8874b5078af5fff",
@@ -32,8 +32,8 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/groceristar.bd6e9433.PNG"
   },
   {
-    "revision": "5ce153ee7b0551b7f2e2",
-    "url": "/Portfolio/static/js/main.5ce153ee.chunk.js"
+    "revision": "2cedac4133acae6a5e34",
+    "url": "/Portfolio/static/js/main.2cedac41.chunk.js"
   },
   {
     "revision": "16aac88e1754612f4f5868fc6aee604a",
@@ -56,15 +56,15 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/NewsApp.84ba5121.png"
   },
   {
-    "revision": "297c8bcfa44b496d4f14e342bc9ba27c",
-    "url": "/Portfolio/static/media/SultansKitchen.297c8bcf.PNG"
+    "revision": "a23e351c84ded41e683076a5cb9f9c49",
+    "url": "/Portfolio/static/media/SultansKitchen.a23e351c.PNG"
   },
   {
     "revision": "3eac64ffa1569cbf34a4ed20c7eac092",
     "url": "/Portfolio/static/media/phone-laptop.3eac64ff.png"
   },
   {
-    "revision": "f065c81946e1251b1b42f2ee2bac8c66",
+    "revision": "ff1a83567cc3ec0a3d831cd508da24a7",
     "url": "/Portfolio/index.html"
   }
 ];
