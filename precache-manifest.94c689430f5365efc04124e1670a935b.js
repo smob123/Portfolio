@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/rdcsi.b26ac17b.jpg"
   },
   {
-    "revision": "2cedac4133acae6a5e34",
-    "url": "/Portfolio/static/css/main.4e2b00ad.chunk.css"
+    "revision": "0bb2f201dc1ce82ccd8b",
+    "url": "/Portfolio/static/css/main.02ef89d1.chunk.css"
   },
   {
-    "revision": "8891b8874b5078af5fff",
-    "url": "/Portfolio/static/js/1.8891b887.chunk.js"
+    "revision": "a80b57951e0c6e12e8dc",
+    "url": "/Portfolio/static/js/1.a80b5795.chunk.js"
   },
   {
     "revision": "3b96116072eb85f5a3a2",
@@ -32,8 +32,8 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/groceristar.bd6e9433.PNG"
   },
   {
-    "revision": "2cedac4133acae6a5e34",
-    "url": "/Portfolio/static/js/main.2cedac41.chunk.js"
+    "revision": "0bb2f201dc1ce82ccd8b",
+    "url": "/Portfolio/static/js/main.0bb2f201.chunk.js"
   },
   {
     "revision": "16aac88e1754612f4f5868fc6aee604a",
@@ -52,8 +52,8 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/RestaurantFinder.4e33c865.png"
   },
   {
-    "revision": "84ba512183172939ca9ae749e5307a8e",
-    "url": "/Portfolio/static/media/NewsApp.84ba5121.png"
+    "revision": "107378e16a8cb2c9da65e3f6a00146a6",
+    "url": "/Portfolio/static/media/NewsApp.107378e1.png"
   },
   {
     "revision": "a23e351c84ded41e683076a5cb9f9c49",
@@ -64,7 +64,7 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/phone-laptop.3eac64ff.png"
   },
   {
-    "revision": "ff1a83567cc3ec0a3d831cd508da24a7",
+    "revision": "c8987231eda1d947a28d71b6656d4091",
     "url": "/Portfolio/index.html"
   }
 ];
