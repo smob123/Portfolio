@@ -8,8 +8,8 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/css/main.02ef89d1.chunk.css"
   },
   {
-    "revision": "a80b57951e0c6e12e8dc",
-    "url": "/Portfolio/static/js/1.a80b5795.chunk.js"
+    "revision": "8442d999bba62e9813a6",
+    "url": "/Portfolio/static/js/1.8442d999.chunk.js"
   },
   {
     "revision": "3b96116072eb85f5a3a2",
@@ -64,7 +64,7 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/phone-laptop.3eac64ff.png"
   },
   {
-    "revision": "c8987231eda1d947a28d71b6656d4091",
+    "revision": "688b7e7225edf0de7a18fbed9d207709",
     "url": "/Portfolio/index.html"
   }
 ];
