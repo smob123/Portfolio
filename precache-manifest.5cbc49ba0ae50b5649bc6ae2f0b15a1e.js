@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/rdcsi.b26ac17b.jpg"
   },
   {
-    "revision": "0bb2f201dc1ce82ccd8b",
+    "revision": "2f6cc648f747917d7985",
     "url": "/Portfolio/static/css/main.02ef89d1.chunk.css"
   },
   {
-    "revision": "8442d999bba62e9813a6",
-    "url": "/Portfolio/static/js/1.8442d999.chunk.js"
+    "revision": "4e4930db0e8aa047d6c6",
+    "url": "/Portfolio/static/js/1.4e4930db.chunk.js"
   },
   {
     "revision": "3b96116072eb85f5a3a2",
@@ -32,8 +32,8 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/groceristar.bd6e9433.PNG"
   },
   {
-    "revision": "0bb2f201dc1ce82ccd8b",
-    "url": "/Portfolio/static/js/main.0bb2f201.chunk.js"
+    "revision": "2f6cc648f747917d7985",
+    "url": "/Portfolio/static/js/main.2f6cc648.chunk.js"
   },
   {
     "revision": "16aac88e1754612f4f5868fc6aee604a",
@@ -64,7 +64,7 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/phone-laptop.3eac64ff.png"
   },
   {
-    "revision": "688b7e7225edf0de7a18fbed9d207709",
+    "revision": "874af4a96be9462458ec159f34a823a3",
     "url": "/Portfolio/index.html"
   }
 ];
