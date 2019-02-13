@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
-import $ from 'jquery';
+
+let submitBttn;
+let contactForm;
+let contactFormContent;
 
 export default class Contact extends Component {
     constructor() {
@@ -12,6 +15,12 @@ export default class Contact extends Component {
         }
     }
 
+    componentDidMount() {
+        submitBttn = document.querySelector('#message-submit');
+        contactForm = document.querySelector('#contact-content form');
+        contactFormContent = document.querySelector('#contact-content');
+    }
+
     update = e => {
         this.setState({
             [e.target.name]: e.target.value.toString()
@@ -20,8 +29,8 @@ export default class Contact extends Component {
 
     submit = e => {
         e.preventDefault();
-        $('#message-submit').css({ 'cursor': 'progress' });
-        $('#message-submit').click(() => { return false });
+        submitBttn.style['cursor'] = 'progress';
+        submitBttn.addEventListener('click', () => { return false });
         this.sendData(JSON.stringify(this.state));
     }
 
@@ -37,11 +46,11 @@ export default class Contact extends Component {
             .then((json) => {
                 if (json.message !== 'ok') {
                     alert(json.message);
-                    $('#message-submit').css({ 'cursor': 'pointer' });
+                    submitBttn.style['cursor'] = 'pointer';
                 }
                 else {
-                    $('#contact-content form').css({ 'display': 'none' });
-                    $('#contact-content').append('<span>Your message has been submitted!</span>');
+                    contactForm.style['display'] = 'none';
+                    contactFormContent.innerHTML = '<span>Your message has been submitted!</span>';
                 }
             })
             .catch((err) => console.log(err));

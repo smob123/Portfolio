@@ -45,7 +45,7 @@ class App extends Component {
                     <div className="name-container">
                         <h1>Sultan Banabila</h1>
                         <span> Web developer | Android developer</span>
-                        <button onClick={() => this.navigationHandler(document.querySelector('#contact'))}>Yes, I'm available for hire</button>
+                        <button onClick={() => this.navigationHandler('#contact')}>Yes, I'm available for hire</button>
                     </div>
                 </header>
                 <div className="main-content-container">
