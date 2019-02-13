@@ -1,9 +1,9 @@
 {
-  "main.css": "/Portfolio/static/css/main.65832716.chunk.css",
-  "main.js": "/Portfolio/static/js/main.8c5930eb.chunk.js",
-  "main.js.map": "/Portfolio/static/js/main.8c5930eb.chunk.js.map",
-  "static/js/1.2fbcbe02.chunk.js": "/Portfolio/static/js/1.2fbcbe02.chunk.js",
-  "static/js/1.2fbcbe02.chunk.js.map": "/Portfolio/static/js/1.2fbcbe02.chunk.js.map",
+  "main.css": "/Portfolio/static/css/main.3a6b34b7.chunk.css",
+  "main.js": "/Portfolio/static/js/main.ddbb2f1d.chunk.js",
+  "main.js.map": "/Portfolio/static/js/main.ddbb2f1d.chunk.js.map",
+  "static/js/1.6cb5208c.chunk.js": "/Portfolio/static/js/1.6cb5208c.chunk.js",
+  "static/js/1.6cb5208c.chunk.js.map": "/Portfolio/static/js/1.6cb5208c.chunk.js.map",
   "runtime~main.js": "/Portfolio/static/js/runtime~main.3b961160.js",
   "runtime~main.js.map": "/Portfolio/static/js/runtime~main.3b961160.js.map",
   "static/media/phone-laptop.png": "/Portfolio/static/media/phone-laptop.3eac64ff.png",
@@ -21,8 +21,8 @@
   "static/media/SultansKitchen.PNG": "/Portfolio/static/media/SultansKitchen.2878be5f.PNG",
   "static/media/ReactNative.png": "/Portfolio/static/media/ReactNative.a06de35b.png",
   "static/media/Sourcerer.svg": "/Portfolio/static/media/Sourcerer.9f6f6969.svg",
-  "static/css/main.65832716.chunk.css.map": "/Portfolio/static/css/main.65832716.chunk.css.map",
+  "static/css/main.3a6b34b7.chunk.css.map": "/Portfolio/static/css/main.3a6b34b7.chunk.css.map",
   "index.html": "/Portfolio/index.html",
-  "precache-manifest.dc1f783ac7c96882b5b062ad8fc60276.js": "/Portfolio/precache-manifest.dc1f783ac7c96882b5b062ad8fc60276.js",
+  "precache-manifest.8eee954a4d94af0cf9720107825e4038.js": "/Portfolio/precache-manifest.8eee954a4d94af0cf9720107825e4038.js",
   "service-worker.js": "/Portfolio/service-worker.js"
 }
