@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
 import './res/styles/styles.css';
-import $ from 'jquery';
+import About from './res/assets/about';
+import Experience from './res/assets/experience';
 import Skills from './res/assets/skills';
-import Contributions from './res/assets/contributions';
 import Projects from './res/assets/projects';
 import Contact from './res/assets/contact';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faTwitter, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+import Footer from './res/assets/footer';
 import ScrollAnimations from './components/Animations';
 
 class App extends Component {
@@ -16,53 +15,53 @@ class App extends Component {
     }
 
     componentDidMount() {
-        ScrollAnimations.stickyNav();
+        ScrollAnimations.topBarAnimmations();
     }
 
     render() {
-
         return (
             <main>
                 <header id='header'>
+                    <div className='header-overlay'></div>
+
+                    <div className='top-bar'>
+                        <div className='title-container'></div>
+                        <div className="nav-container">
+                            <nav className="main-nav" id='main-nav'>
+                                <p onClick={() => this.navigationHandler('#header')}>Home</p>
+                                <p onClick={() => this.navigationHandler('#about-section')}>About</p>
+                                <p onClick={() => this.navigationHandler('#experience-section')}>Education and experience</p>
+                                <p onClick={() => this.navigationHandler('#contributions')}>Projects</p>
+                                <p onClick={() => this.navigationHandler('#contact')}>Contact</p>
+                            </nav>
+
+                            <div className='phone-nav'>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                        </div>
+                    </div>
                     <div className="name-container">
                         <h1>Sultan Banabila</h1>
                         <span> Web developer | Android developer</span>
-                        <button onClick={() => this.navigationHandler($('#contact'))}>Yes, I'm available for hire</button>
+                        <button onClick={() => this.navigationHandler(document.querySelector('#contact'))}>Yes, I'm available for hire</button>
                     </div>
                 </header>
-                <div className="card-container">
-                    <div className="nav-container">
-                        <nav id="main-nav">
-                            <p onClick={() => this.navigationHandler($('#about-section'))}>About</p>
-                            <p onClick={() => this.navigationHandler($('#contributions'))}>Contributions</p>
-                            <p onClick={() => this.navigationHandler($('#projects-section'))}>Personal projects</p>
-                            <p onClick={() => this.navigationHandler($('#contact'))}>Contact</p>
-                        </nav>
-                    </div>
-
+                <div className="main-content-container">
                     <section id='about-section'>
-                        <div>
-                            <img src={require('./res/images/phone-laptop.png')} alt='phone and laptop' id='round-img' />
-                        </div>
+                        <About />
+                    </section>
 
-                        <div>
-                            <h3>Who am I?</h3>
-                            <hr />
-                            <span>My name is Sultan, I am a computer sicence student
-                                who is enthusiastic about web and mobile development.</span>
-                        </div>
+                    <section id='experience-section'>
+                        <Experience />
                     </section>
 
                     <section id='skills-section'>
-                        <h2>What I can do</h2>
                         <Skills />
                     </section>
 
-                    <Contributions />
-
-                    <section id="projects-section">
-                        <Projects />
-                    </section>
+                    <Projects />
 
                     <div id="contact">
                         <section id='contact-content'>
@@ -73,21 +72,7 @@ class App extends Component {
                 </div>
 
                 <footer>
-                    <p>Sultan Banabila &copy;.</p>
-
-                    <div className="social-media">
-                        <a href="https://github.com/smob123" target="_blank" rel="noopener noreferrer">
-                            <FontAwesomeIcon icon={faGithub} size='2x' />
-                        </a>
-
-                        <a href="https://www.linkedin.com/in/sultan-b-7493a6154" target="_blank" rel="noopener noreferrer" style={{ margin: 'auto 2% auto 2%' }}>
-                            <FontAwesomeIcon icon={faLinkedinIn} size='2x' />
-                        </a>
-
-                        <a href="https://twitter.com/SmB_2020" target="_blank" rel="noopener noreferrer">
-                            <FontAwesomeIcon icon={faTwitter} size='2x' />
-                        </a>
-                    </div>
+                    <Footer />
                 </footer>
             </main>
         );

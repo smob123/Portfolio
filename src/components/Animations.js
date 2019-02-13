@@ -1,19 +1,57 @@
-import $ from 'jquery';
+let mainNavExpanded = false;
 
 class ScrollAnimations {
 
     static bringUpSection(sectionId) {
-        $('html, body').animate({
-            scrollTop: $(sectionId).offset().top - 100
-        }, 1000);
+        const section = document.querySelector(sectionId);
+        const mainNav = document.querySelector('.main-nav');
+        window.scroll({
+            top: section.offsetTop - 20,
+            behavior: 'smooth'
+        });
+
+        mainNav.classList.remove('expanded');
+        mainNavExpanded = false;
     }
 
-    static stickyNav() {
-        const navTop = $('.nav-container').offset().top;
+    static topBarAnimmations() {
+        const phoneNav = document.querySelector('.phone-nav');
+        const mainNav = document.querySelector('.main-nav');
 
-        $(window).scroll(() => {
-            $(window).scrollTop() >= navTop ? $('.nav-container').addClass('sticky-nav') && $('#main-nav').css({ 'border-radius': '0' }) :
-                $('.nav-container').removeClass('sticky-nav') && $('#main-nav').css({ 'border-radius': '30px 30px 0 0' });
+        phoneNav.addEventListener('click', () => {
+            if (!mainNavExpanded) {
+                mainNav.classList.add('expanded');
+            }
+            else {
+                mainNav.classList.remove('expanded');
+            }
+
+            mainNavExpanded = !mainNavExpanded;
+        });
+
+        this.topBarBackground();
+    }
+
+    static topBarBackground() {
+        const topBar = document.querySelector('.top-bar');
+        const phoneNav = document.querySelector('.phone-nav');
+        const phoneNavBars = document.querySelectorAll('.phone-nav > div');
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY >= window.innerHeight - topBar.clientHeight) {
+                topBar.classList.add('scrolled');
+                phoneNav.classList.add('scrolled');
+                for (let elem of phoneNavBars) {
+                    elem.classList.add('scrolled');
+                }
+            }
+            else {
+                topBar.classList.remove('scrolled');
+                phoneNav.classList.remove('scrolled');
+                for (let elem of phoneNavBars) {
+                    elem.classList.remove('scrolled');
+                }
+            }
         });
     }
 }
