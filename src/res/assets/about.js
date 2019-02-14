@@ -15,7 +15,7 @@ export default class About extends Component {
                     <span>My name is Sultan, I am a computer sicence student
                                 who is enthusiastic about web and mobile development.</span>
 
-                    <button onClick={() => ScrollAnimations.bringUpSection('#story-section')}>Find out more</button>
+                    <button onClick={() => ScrollAnimations.bringUpSection('#experience-section')}>Find out more</button>
                 </div>
             </div>
         );
