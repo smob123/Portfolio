@@ -31,7 +31,8 @@ class App extends Component {
                                 <p onClick={() => this.navigationHandler('#header')}>Home</p>
                                 <p onClick={() => this.navigationHandler('#about-section')}>About</p>
                                 <p onClick={() => this.navigationHandler('#experience-section')}>Education and experience</p>
-                                <p onClick={() => this.navigationHandler('#contributions')}>Projects</p>
+                                <p onClick={() => this.navigationHandler('#skills-section')}>Skills</p>
+                                <p onClick={() => this.navigationHandler('#projects')}>Projects</p>
                                 <p onClick={() => this.navigationHandler('#contact')}>Contact</p>
                             </nav>
 
