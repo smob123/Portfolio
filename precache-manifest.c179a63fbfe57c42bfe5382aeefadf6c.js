@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/rdcsi.d6e24acc.jpg"
   },
   {
-    "revision": "446ab43921afbce7086a",
+    "revision": "21f058f33662155e74b4",
     "url": "/Portfolio/static/css/main.3a6b34b7.chunk.css"
   },
   {
@@ -40,8 +40,8 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/groceristar.ba3c2a76.PNG"
   },
   {
-    "revision": "446ab43921afbce7086a",
-    "url": "/Portfolio/static/js/main.446ab439.chunk.js"
+    "revision": "21f058f33662155e74b4",
+    "url": "/Portfolio/static/js/main.21f058f3.chunk.js"
   },
   {
     "revision": "a071b077f73b34503503c6f18975f60a",
@@ -76,7 +76,7 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/Sourcerer.9f6f6969.svg"
   },
   {
-    "revision": "7a921f1bcf5193e78d934c57d9783257",
+    "revision": "ac948e40c6201d63adc04804dd6e334b",
     "url": "/Portfolio/index.html"
   }
 ];
