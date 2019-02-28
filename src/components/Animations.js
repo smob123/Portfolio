@@ -5,10 +5,17 @@ class ScrollAnimations {
     static bringUpSection(sectionId) {
         const section = document.querySelector(sectionId);
         const mainNav = document.querySelector('.main-nav');
-        window.scroll({
-            top: section.offsetTop - 20,
-            behavior: 'smooth'
-        });
+
+        if (navigator.userAgent.match(/Edge/) || navigator.userAgent.match(/Trident/)) {
+            section.scrollIntoView({ behavior: 'smooth' });
+            section.scrollTop += 100;
+        }
+        else {
+            window.scroll({
+                top: section.offsetTop - 20,
+                behavior: 'smooth'
+            });
+        }
 
         mainNav.classList.remove('expanded');
         mainNavExpanded = false;
