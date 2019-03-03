@@ -66,7 +66,7 @@ export default class Projects extends Component {
     render() {
         return (
             <section id="projects">
-                <h2>Projects</h2>
+                <h2>Projects and Contributions</h2>
                 <div className="projects-content">
                     {this.state.projects}
                 </div>

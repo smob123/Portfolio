@@ -25,7 +25,9 @@ class App extends Component {
                     <div className='header-overlay'></div>
 
                     <div className='top-bar'>
-                        <div className='title-container'></div>
+                        <div className='title-container'>
+                            <span>Sultan Banabila</span>
+                        </div>
                         <div className="nav-container">
                             <nav className="main-nav" id='main-nav'>
                                 <p onClick={() => this.navigationHandler('#header')}>Home</p>
@@ -44,7 +46,7 @@ class App extends Component {
                         </div>
                     </div>
                     <div className="name-container">
-                        <h1>Sultan Banabila</h1>
+                        <h1>Welcome to my portfolio</h1>
                         <span> Web developer | Android developer</span>
                         <button onClick={() => this.navigationHandler('#contact')}>Yes, I'm available for hire</button>
                     </div>

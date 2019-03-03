@@ -43,11 +43,13 @@ class ScrollAnimations {
         const topBar = document.querySelector('.top-bar');
         const phoneNav = document.querySelector('.phone-nav');
         const phoneNavBars = document.querySelectorAll('.phone-nav > div');
+        const title = document.querySelector('.title-container span');
 
         window.addEventListener('scroll', () => {
             if (window.scrollY >= window.innerHeight - topBar.clientHeight) {
                 topBar.classList.add('scrolled');
                 phoneNav.classList.add('scrolled');
+                title.classList.add('scrolled');;
                 for (let elem of phoneNavBars) {
                     elem.classList.add('scrolled');
                 }
@@ -55,6 +57,7 @@ class ScrollAnimations {
             else {
                 topBar.classList.remove('scrolled');
                 phoneNav.classList.remove('scrolled');
+                title.classList.remove('scrolled');
                 for (let elem of phoneNavBars) {
                     elem.classList.remove('scrolled');
                 }
