@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/rdcsi.d6e24acc.jpg"
   },
   {
-    "revision": "17c532afa53e49ec69f1",
-    "url": "/Portfolio/static/css/main.e1f779f3.chunk.css"
+    "revision": "3dd939ac11a0df63e398",
+    "url": "/Portfolio/static/css/main.e6d8bb74.chunk.css"
   },
   {
-    "revision": "6cb5208ce70d29ef6fb5",
-    "url": "/Portfolio/static/js/1.6cb5208c.chunk.js"
+    "revision": "15c4b15ab48e285dd392",
+    "url": "/Portfolio/static/js/1.15c4b15a.chunk.js"
   },
   {
     "revision": "3b96116072eb85f5a3a2",
@@ -40,8 +40,8 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/groceristar.ba3c2a76.PNG"
   },
   {
-    "revision": "17c532afa53e49ec69f1",
-    "url": "/Portfolio/static/js/main.17c532af.chunk.js"
+    "revision": "3dd939ac11a0df63e398",
+    "url": "/Portfolio/static/js/main.3dd939ac.chunk.js"
   },
   {
     "revision": "a071b077f73b34503503c6f18975f60a",
@@ -76,7 +76,7 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/Sourcerer.9f6f6969.svg"
   },
   {
-    "revision": "8acb299343669a1cf7f8c1dc939f9988",
+    "revision": "d18bc8f16cb7329d3a18118c3a3d6da6",
     "url": "/Portfolio/index.html"
   }
 ];
