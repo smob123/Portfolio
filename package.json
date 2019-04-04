@@ -10,8 +10,8 @@
     "@fortawesome/react-fontawesome": "^0.1.4",
     "gh-pages": "^2.0.1",
     "macaddress": "^0.2.9",
-    "react": "^16.8.5",
-    "react-dom": "^16.8.5",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
     "react-scripts": "2.1.8",
     "url-parse": "^1.4.4"
   },
