@@ -12,8 +12,8 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/js/runtime~main.8760695a.js"
   },
   {
-    "revision": "f84a3bbb19aabaea5dc3",
-    "url": "/Portfolio/static/js/2.2da5c345.chunk.js"
+    "revision": "31b6617a450edb138d74",
+    "url": "/Portfolio/static/js/2.d1aeb8ae.chunk.js"
   },
   {
     "revision": "1f0f3724598e4166fad36a2c2173fbe3",
@@ -76,7 +76,7 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/Sourcerer.9f6f6969.svg"
   },
   {
-    "revision": "485d6b176133e97eac69b9c0c5f5a97b",
+    "revision": "0e067b1bc76e6412f782ee6fcfaaa773",
     "url": "/Portfolio/index.html"
   }
 ];
