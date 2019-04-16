@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "d6e24accc2c69be95a2913b52089ea2d",
-    "url": "/Portfolio/static/media/rdcsi.d6e24acc.jpg"
+    "revision": "ba3c2a76f604639b73771b35e8fc2e32",
+    "url": "/Portfolio/static/media/groceristar.ba3c2a76.PNG"
   },
   {
-    "revision": "c94d4f4ca11099fe12fa",
-    "url": "/Portfolio/static/css/main.9c574cd1.chunk.css"
+    "revision": "7a31b05ced817109cdc7",
+    "url": "/Portfolio/static/css/main.45742503.chunk.css"
   },
   {
     "revision": "591eb5beb99e69ed8d3e",
     "url": "/Portfolio/static/js/runtime~main.8760695a.js"
   },
   {
-    "revision": "31b6617a450edb138d74",
-    "url": "/Portfolio/static/js/2.d1aeb8ae.chunk.js"
+    "revision": "ef745129986c0fbddfb0",
+    "url": "/Portfolio/static/js/2.8b87edcb.chunk.js"
   },
   {
     "revision": "1f0f3724598e4166fad36a2c2173fbe3",
@@ -22,6 +22,10 @@ self.__precacheManifest = [
   {
     "revision": "a06de35baf0fe5fec924ce16f1baacda",
     "url": "/Portfolio/static/media/ReactNative.a06de35b.png"
+  },
+  {
+    "revision": "e8ea8cf667d1ddd05861e9508628a284",
+    "url": "/Portfolio/static/media/CSS3.e8ea8cf6.png"
   },
   {
     "revision": "8648c71ee050c7fe690e42aa97b344f1",
@@ -36,12 +40,12 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/Gatsby.bdba4f1e.png"
   },
   {
-    "revision": "ba3c2a76f604639b73771b35e8fc2e32",
-    "url": "/Portfolio/static/media/groceristar.ba3c2a76.PNG"
+    "revision": "7a31b05ced817109cdc7",
+    "url": "/Portfolio/static/js/main.ca28d3d9.chunk.js"
   },
   {
-    "revision": "c94d4f4ca11099fe12fa",
-    "url": "/Portfolio/static/js/main.c634bc1e.chunk.js"
+    "revision": "d6e24accc2c69be95a2913b52089ea2d",
+    "url": "/Portfolio/static/media/rdcsi.d6e24acc.jpg"
   },
   {
     "revision": "a071b077f73b34503503c6f18975f60a",
@@ -52,8 +56,8 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/flutter.89ec3296.png"
   },
   {
-    "revision": "e8ea8cf667d1ddd05861e9508628a284",
-    "url": "/Portfolio/static/media/CSS3.e8ea8cf6.png"
+    "revision": "bc7296be0300805adf50594dcba208aa",
+    "url": "/Portfolio/static/media/artworx.bc7296be.png"
   },
   {
     "revision": "53ecca5fb46f726ac918ee7caeaf2a7a",
@@ -76,7 +80,7 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/Sourcerer.9f6f6969.svg"
   },
   {
-    "revision": "0e067b1bc76e6412f782ee6fcfaaa773",
+    "revision": "9346a091f7aeb3c15b66ab6822d5ec9e",
     "url": "/Portfolio/index.html"
   }
 ];
