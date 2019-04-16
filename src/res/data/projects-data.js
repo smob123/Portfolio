@@ -4,9 +4,38 @@ import Graphql from '../images/GraphQL.png';
 import Flutter from '../images/flutter.png';
 import HTML5 from '../images/HTML5.png';
 import CSS3 from '../images/CSS3.png';
+import ArtWorx from '../images/artworx.png';
 import RestaurantFinder from '../images/RestaurantFinder.png';
 import MoviesApp from '../images/MoviesApp.png';
 import SultansKitchen from '../images/SultansKitchen.PNG';
+
+let artworx = {
+    logo: ArtWorx,
+    title: 'ArtWorx',
+    description: 'A fictional digital agency website',
+    link: 'https://github.com/smob123/ArtWorx',
+    url: 'https://smob123.github.io/ArtWorx/',
+    technologies: [
+        HTML5,
+        CSS3,
+        JS
+    ],
+    type: 'website'
+}
+
+let sultansKitchen = {
+    logo: SultansKitchen,
+    title: "Sultan's Kitchen",
+    description: 'A fictional resturant website',
+    link: 'https://github.com/smob123/Sultan-s-Kitchen',
+    url: 'https://smob123.github.io/Sultan-s-Kitchen/',
+    technologies: [
+        HTML5,
+        CSS3,
+        JS
+    ],
+    type: 'website'
+};
 
 let moviesApp = {
     logo: MoviesApp,
@@ -32,20 +61,6 @@ let restaurantFinder = {
     type: 'mobile-app'
 };
 
-let sultansKitchen = {
-    logo: SultansKitchen,
-    title: "Sultan's Kitchen",
-    description: 'A fictional resturant website',
-    link: 'https://github.com/smob123/Sultan-s-Kitchen',
-    url: 'https://smob123.github.io/Sultan-s-Kitchen/',
-    technologies: [
-        HTML5,
-        CSS3,
-        JS
-    ],
-    type: 'website'
-};
-
-let projectData = [moviesApp, restaurantFinder, sultansKitchen];
+let projectData = [artworx, sultansKitchen, moviesApp, restaurantFinder];
 
 export default projectData;
