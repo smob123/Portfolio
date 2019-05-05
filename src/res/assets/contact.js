@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import GAEvent from '../../components/GAEvents';
 
 let submitBttn;
 let contactForm;
@@ -21,6 +22,8 @@ export default class Contact extends Component {
         contactFormContent = document.querySelector('#contact-content');
     }
 
+
+
     update = e => {
         this.setState({
             [e.target.name]: e.target.value.toString()
@@ -29,6 +32,7 @@ export default class Contact extends Component {
 
     submit = e => {
         e.preventDefault();
+        GAEvent('Email sent');
         submitBttn.style['cursor'] = 'progress';
         submitBttn.addEventListener('click', () => { return false });
         this.sendData(JSON.stringify(this.state));

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import '../styles/styles.css';
 import contributionsData from '../data/contributions-data';
 import projectData from '../data/projects-data';
+import GAEvent from '../../components/GAEvents';
 
 let data = contributionsData.concat(projectData);
 let projects = [];
@@ -29,7 +30,7 @@ for (let i = 0; i < data.length; i++) {
                 {
                     data[i].link !== undefined ?
                         <a href={data[i].link} target='_blank' rel="noopener noreferrer">
-                            <button>View on GitHub</button>
+                            <button onClick={() => GAEvent(`Visited ${data[i].title} GitHUb page`)}>View on GitHub</button>
                         </a>
 
                         : <span className='private-project-txt'>Repository is private</span>
@@ -38,7 +39,7 @@ for (let i = 0; i < data.length; i++) {
                 {
                     data[i].url !== undefined &&
                     <a href={data[i].url} target='_blank' rel="noopener noreferrer">
-                        <button>Visit website</button>
+                        <button onClick={() => GAEvent(`Visited ${data[i].title} website`)}>Visit website</button>
                     </a>
                 }
 
