@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
-import '../styles/styles.css';
-import contributionsData from '../data/contributions-data';
-import projectData from '../data/projects-data';
-import GAEvent from '../../components/GAEvents';
+import contributionsData from '../../data/contributions-data';
+import projectData from '../../data/projects-data';
+import GAEvent from '../general/GAEvents';
 
-let data = contributionsData.concat(projectData);
+let data = [...contributionsData, ...projectData];
 let projects = [];
 let tech = [];
 let imageClassName;

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import GAEvent from '../../components/GAEvents';
+import GAEvent from '../general/GAEvents';
 
 let submitBttn;
 let contactForm;

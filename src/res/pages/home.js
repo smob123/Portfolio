@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import '../styles/styles.css';
-import About from '../assets/about';
-import Experience from '../assets/experience';
-import Skills from '../assets/skills';
-import Projects from '../assets/projects';
-import Contact from '../assets/contact';
-import Footer from '../assets/footer';
-import ScrollAnimations from '../../components/Animations';
+import About from '../components/home/about';
+import Experience from '../components/home/experience';
+import Skills from '../components/home/skills';
+import Projects from '../components/home/projects';
+import Contact from '../components/home/contact';
+import Footer from '../components/home/footer';
+import ScrollAnimations from '../components/general/Animations';
 
 export default class Home extends Component {
 

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ReactGA from 'react-ga';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import ScrollToTop from './components/scrollToTop';
+import ScrollToTop from './res/components/router/scrollToTop';
 import Home from './res/pages/home';
 class App extends Component {
 

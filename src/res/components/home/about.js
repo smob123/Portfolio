@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
-import '../../components/Animations';
-import ScrollAnimations from '../../components/Animations';
+import ScrollAnimations from '../general/Animations';
 
 export default class About extends Component {
     render() {
         return (
             <div className='container'>
                 <div>
-                    <img src={require('../images/phone-laptop.png')} alt='phone and laptop' id='round-img' />
+                    <img src={require('../../images/phone-laptop.png')} alt='phone and laptop' id='round-img' />
                 </div>
 
                 <div>

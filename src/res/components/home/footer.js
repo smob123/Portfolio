@@ -17,7 +17,7 @@ export default class Footer extends Component {
                 </a>
 
                 <a href="https://sourcerer.io/smob123" target="_blank" rel="noopener noreferrer">
-                    <img src={require('../images/Sourcerer.svg')} alt='Sourcerer' />
+                    <img src={require('../../images/Sourcerer.svg')} alt='Sourcerer' />
                 </a>
             </div>
         </div>
