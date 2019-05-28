@@ -28,7 +28,7 @@ for (let i = 0; i < data.length; i++) {
 
                 {
                     data[i].link !== undefined ?
-                        <a href={data[i].link} target='_blank' rel="noopener noreferrer">
+                        <a href={data[i].link} target='_blank' rel="noopener noreferrer nofollow">
                             <button onClick={() => GAEvent(`Visited ${data[i].title} GitHUb page`)}>View on GitHub</button>
                         </a>
 
@@ -37,7 +37,7 @@ for (let i = 0; i < data.length; i++) {
 
                 {
                     data[i].url !== undefined &&
-                    <a href={data[i].url} target='_blank' rel="noopener noreferrer">
+                    <a href={data[i].url} target='_blank' rel="noopener noreferrer nofollow">
                         <button onClick={() => GAEvent(`Visited ${data[i].title} website`)}>Visit website</button>
                     </a>
                 }
