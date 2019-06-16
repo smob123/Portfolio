@@ -13,7 +13,7 @@ export default class Footer extends Component {
                     <FontAwesomeIcon icon={faGithub} size='2x' onClick={() => GAEvent(`Visited GitHub profile`)} />
                 </a>
 
-                <a href="https://www.linkedin.com/in/sultan-b-7493a6154" target="_blank" rel="noopener noreferrer nofollow" style={{ margin: 'auto 2% auto 2%' }}>
+                <a href="https://www.linkedin.com/in/sultan-banabila-7493a6154/" target="_blank" rel="noopener noreferrer nofollow" style={{ margin: 'auto 2% auto 2%' }}>
                     <FontAwesomeIcon icon={faLinkedinIn} size='2x' onClick={() => GAEvent(`Visited Linkedin profile`)} />
                 </a>
 
