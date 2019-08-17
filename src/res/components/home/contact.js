@@ -63,10 +63,10 @@ export default class Contact extends Component {
     render() {
         return (
             <form>
-                <input placeholder='Name' name='name' value={this.state.name} onChange={e => this.update(e)} />
-                <input placeholder='E-mail' type='email' name='email' value={this.state.email} onChange={e => this.update(e)} />
-                <input placeholder='Subject' name='subject' value={this.state.subject} onChange={e => this.update(e)} />
-                <textarea placeholder='Message' name='message' value={this.state.message} onChange={e => this.update(e)} />
+                <input placeholder='Name' aria-label='Name' name='name' value={this.state.name} onChange={e => this.update(e)} />
+                <input placeholder='E-mail' aria-label='E-mail' type='email' name='email' value={this.state.email} onChange={e => this.update(e)} />
+                <input placeholder='Subject' aria-label='Subject' name='subject' value={this.state.subject} onChange={e => this.update(e)} />
+                <textarea placeholder='Message' aria-label='Message' name='message' value={this.state.message} onChange={e => this.update(e)} />
 
                 <button id='message-submit' onClick={e => this.submit(e)}>Submit</button>
             </form>
