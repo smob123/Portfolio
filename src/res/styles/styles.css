@@ -553,6 +553,7 @@ footer a {
     .skill-conatiner span {
         display: block;
         margin-bottom: 5%;
+        max-width: 400px;
     }
     #skill-card * {
         position: relative;
