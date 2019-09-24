@@ -4,9 +4,9 @@
   "version": "0.1.1",
   "private": true,
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.22",
-    "@fortawesome/free-brands-svg-icons": "^5.10.2",
-    "@fortawesome/free-solid-svg-icons": "^5.10.2",
+    "@fortawesome/fontawesome-svg-core": "^1.2.25",
+    "@fortawesome/free-brands-svg-icons": "^5.11.2",
+    "@fortawesome/free-solid-svg-icons": "^5.11.2",
     "@fortawesome/react-fontawesome": "^0.1.4",
     "gh-pages": "^2.1.1",
     "macaddress": "^0.2.9",
@@ -14,7 +14,7 @@
     "react-dom": "^16.9.0",
     "react-ga": "^2.6.0",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "3.1.1",
+    "react-scripts": "3.1.2",
     "url-parse": "^1.4.7"
   },
   "scripts": {
