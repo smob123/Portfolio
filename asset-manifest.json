@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.d1dbd4ce.chunk.css",
-    "main.js": "/Portfolio/static/js/main.64ef87f1.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.64ef87f1.chunk.js.map",
-    "runtime-main.js": "/Portfolio/static/js/runtime-main.665a1c84.js",
-    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.665a1c84.js.map",
-    "static/js/2.f22cb4e9.chunk.js": "/Portfolio/static/js/2.f22cb4e9.chunk.js",
-    "static/js/2.f22cb4e9.chunk.js.map": "/Portfolio/static/js/2.f22cb4e9.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.a91072e9.chunk.css",
+    "main.js": "/Portfolio/static/js/main.50016267.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.50016267.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.a69d7c3c.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.a69d7c3c.js.map",
+    "static/js/2.ff709c4f.chunk.js": "/Portfolio/static/js/2.ff709c4f.chunk.js",
+    "static/js/2.ff709c4f.chunk.js.map": "/Portfolio/static/js/2.ff709c4f.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.4a3d46d825ae282c79a5e839683ce516.js": "/Portfolio/precache-manifest.4a3d46d825ae282c79a5e839683ce516.js",
+    "precache-manifest.b6419d3fe312fbfcdb23c54122b083c2.js": "/Portfolio/precache-manifest.b6419d3fe312fbfcdb23c54122b083c2.js",
     "service-worker.js": "/Portfolio/service-worker.js",
-    "static/css/main.d1dbd4ce.chunk.css.map": "/Portfolio/static/css/main.d1dbd4ce.chunk.css.map",
+    "static/css/main.a91072e9.chunk.css.map": "/Portfolio/static/css/main.a91072e9.chunk.css.map",
     "static/media/CSS3.png": "/Portfolio/static/media/CSS3.e8ea8cf6.png",
     "static/media/Gatsby.png": "/Portfolio/static/media/Gatsby.bdba4f1e.png",
     "static/media/GraphQL.png": "/Portfolio/static/media/GraphQL.a071b077.png",
@@ -27,5 +27,11 @@
     "static/media/styles.css": "/Portfolio/static/media/header.8648c71e.jpg",
     "static/media/phone-laptop.png": "/Portfolio/static/media/phone-laptop.3eac64ff.png",
     "static/media/rdcsi.jpg": "/Portfolio/static/media/rdcsi.d6e24acc.jpg"
-  }
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a69d7c3c.js",
+    "static/js/2.ff709c4f.chunk.js",
+    "static/css/main.a91072e9.chunk.css",
+    "static/js/main.50016267.chunk.js"
+  ]
 }
