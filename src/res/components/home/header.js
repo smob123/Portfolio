@@ -38,7 +38,7 @@ export default class Header extends Component {
 
         // add each letter in the text as an h3 element
         for (let i = 0; i < txt.length; i++) {
-            spans.push(<h3 className='attr secondary-color hidden'>{txt[i]}</h3>);
+            spans.push(<h3 className='attr secondary-color hidden' key={`${txt[i]}${i}`}>{txt[i]}</h3>);
         }
 
         // update the state to display the new text

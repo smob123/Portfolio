@@ -5,7 +5,7 @@ import Home from './res/pages/home';
 class App extends Component {
 
     componentDidMount() {
-        //this.initializeReactGA();
+        this.initializeReactGA();
     }
 
     /**

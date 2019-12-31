@@ -22,7 +22,7 @@ export default class ProjectDetails extends Component {
         const tech = [];
         techList.forEach((item, index) => {
             tech.push(
-                <span className='tech-item'>
+                <span className='tech-item' key={`${item}${index}`}>
                     {item} {index < techList.length - 1 ? ', ' : '.'}
                 </span>
             );
