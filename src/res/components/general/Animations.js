@@ -1,69 +1,86 @@
-let mainNavExpanded = false;
+/**
+ * handles navigation animations; such as, animating the nav menu when clicked, and transitioning from one section
+ * to another, etc...
+ */
 
-class ScrollAnimations {
+class NavAnimations {
+    /**
+     * handles transitioning between sections.
+     * @param {Int} sectionIndex the index of the section we want to go to
+     */
+    static goToSection(sectionIndex) {
+        // get the list of the avalable sections
+        const container = document.querySelectorAll('.main-content-container section');
 
-    static bringUpSection(sectionId) {
-        const section = document.querySelector(sectionId);
-        const mainNav = document.querySelector('.main-nav');
+        // get the list of navigation items
+        const navList = document.querySelectorAll('.main-nav ul li');
+        // go through each item until you find the one that is active
+        for (let item of navList) {
+            // if the active item is found
+            if (item.classList.contains('active')) {
+                // check if it is the same as the one the user selected
+                if (item === navList[sectionIndex]) {
+                    // hide the navigation items, and exit the method
+                    this.toggleMainNav();
+                    return;
+                }
 
-        if (navigator.userAgent.match(/Edge/) || navigator.userAgent.match(/Trident/)) {
-            section.scrollIntoView({ behavior: 'smooth' });
-            section.scrollTop += 100;
+                // otherwise remove the active class from the item
+                item.classList.remove('active');
+                break;
+            }
         }
-        else {
-            window.scroll({
-                top: section.offsetTop - 20,
-                behavior: 'smooth'
-            });
-        }
 
-        mainNav.classList.remove('expanded');
-        mainNavExpanded = false;
+        // add the active class to the selected item
+        navList[sectionIndex].classList.add('active');
+
+        // calcualte the transition amount to the next section
+        const transform = `${sectionIndex}00`;
+        // apply it on all the sections so that the selected section becomes visible on the screen
+        container.forEach(item => {
+            item.style['transform'] = `translate(-${parseInt(transform)}%)`;
+        });
+
+        // hide main-nav
+        this.toggleMainNav();
     }
 
-    static topBarAnimmations() {
-        const phoneNav = document.querySelector('.phone-nav');
-        const mainNav = document.querySelector('.main-nav');
+    /**
+     * animates the main navigation to hide the navigation list
+     */
+    static toggleMainNav() {
+        const navContainer = document.querySelector('.nav-container');
+        navContainer.classList.remove('expanded');
+    }
 
+    /**
+     * intializes the on click listener for the hamburger menu
+     */
+    static setNavigationListener() {
+        // the hamburger menu
+        const phoneNav = document.querySelector('.phone-nav');
+        // the navigation's parent container
+        const navContainer = document.querySelector('.nav-container');
+
+        // handle toggling the navigation menu
         phoneNav.addEventListener('click', () => {
-            if (!mainNavExpanded) {
-                mainNav.classList.add('expanded');
+            if (!this.isExpanded()) {
+                navContainer.classList.add('expanded');
             }
             else {
-                mainNav.classList.remove('expanded');
+                navContainer.classList.remove('expanded');
             }
-
-            mainNavExpanded = !mainNavExpanded;
         });
-
-        this.topBarBackground();
     }
 
-    static topBarBackground() {
-        const topBar = document.querySelector('.top-bar');
-        const phoneNav = document.querySelector('.phone-nav');
-        const phoneNavBars = document.querySelectorAll('.phone-nav > div');
-        const title = document.querySelector('.title-container span');
+    /**
+     * check if the navigation menu is expanded
+     */
+    static isExpanded() {
+        const navContainer = document.querySelector('.nav-container');
 
-        window.addEventListener('scroll', () => {
-            if (window.scrollY >= window.innerHeight - topBar.clientHeight) {
-                topBar.classList.add('scrolled');
-                phoneNav.classList.add('scrolled');
-                title.classList.add('scrolled');;
-                for (let elem of phoneNavBars) {
-                    elem.classList.add('scrolled');
-                }
-            }
-            else {
-                topBar.classList.remove('scrolled');
-                phoneNav.classList.remove('scrolled');
-                title.classList.remove('scrolled');
-                for (let elem of phoneNavBars) {
-                    elem.classList.remove('scrolled');
-                }
-            }
-        });
+        return navContainer.classList.contains('expanded');
     }
 }
 
-export default ScrollAnimations;
+export default NavAnimations;

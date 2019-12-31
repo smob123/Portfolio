@@ -1,39 +1,41 @@
+/**
+ * displays a list of images to demonstrate skills.
+ */
+
 import React, { Component } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCode, faMobileAlt } from '@fortawesome/free-solid-svg-icons';
-import { faAndroid } from '@fortawesome/free-brands-svg-icons';
 
 export default class Skills extends Component {
 
+    constructor(props) {
+        super(props);
+        this.state = { images: this.addImages() };
+    }
+
+    /**
+     * gets the list of images from a folder, and adds them to an img element.
+     */
+    addImages() {
+        // get the the images in the technologies folder
+        const images = require.context('../../images/technologies', false, /\.(png|PNG|jpg|JPG)$/);
+        // list of img elements
+        const imageElements = [];
+
+        // add each image in the folder to an img element
+        images.keys().map(images).forEach((image, index) => {
+            imageElements.push(
+                <img src={image} alt={`tech${index}`} key={`tech${index}`} />
+            );
+        });
+
+        return imageElements;
+    }
+
     render() {
         return (
-            <div>
-                <h2>What I can do</h2>
-                <div className='skill-conatiner'>
-                    <div id='skill-card webDev' className='translateToBottom'>
-                        <FontAwesomeIcon icon={faCode} size='4x' className='orange-icon' />
-
-                        <span><strong>Web development</strong></span>
-                        <div id='skill-description webDevDec'>
-                            <span>Turning designs into fully functional websites.</span>
-                        </div>
-                    </div>
-                    <div id='skill-card androidDev' className='translateToBottom'>
-                        <FontAwesomeIcon icon={faAndroid} size='4x' className='orange-icon' />
-
-                        <span><strong>Android development</strong></span>
-                        <div id='skill-description androidDevDesc'>
-                            <span>Creating native android applications.</span>
-                        </div>
-                    </div>
-                    <div id='skill-card hybridAppDev' className='translateToBottom'>
-                        <FontAwesomeIcon icon={faMobileAlt} size='4x' className='orange-icon' />
-
-                        <span><strong>Hybrid app development</strong></span>
-                        <div id='skill-description hybridAppDevDesc'>
-                            <span>Creating hybrid application that work on both Android and IOS using Javascript frameworks.</span>
-                        </div>
-                    </div>
+            <div className='skills-container'>
+                <h2>Technologies</h2>
+                <div className='image-container'>
+                    {this.state.images}
                 </div>
             </div>
         );
