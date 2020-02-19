@@ -2,10 +2,28 @@
  * data about my personal projects.
  */
 
+import Photorama from '../images/photorama.png'
 import ArtWorx from '../images/artworx.png';
-import RestaurantFinder from '../images/RestaurantFinder.png';
-import MoviesApp from '../images/MoviesApp.png';
-import SultansKitchen from '../images/SultansKitchen.PNG';
+import RestaurantFinder from '../images/restaurantFinder.png';
+import MoviesApp from '../images/moviesApp.png';
+import SultansKitchen from '../images/sultansKitchen.PNG';
+
+let photorama = {
+    logo: Photorama,
+    title: 'Photorama',
+    description: "A social media app, similar to Instagram, which allows users to share images, and interact with other users by liking, and commenting on posts, or by following other users' accounts",
+    link: 'https://github.com/smob123/Photorama',
+    technologies: [
+        'Kotlin',
+        'Apollo-Android',
+        'Firebase Cloud Messaging',
+        'NodeJS',
+        'GraphQL',
+        'MongoDB',
+        'Firebase'
+    ],
+    type: 'mobile-app'
+};
 
 let artworx = {
     logo: ArtWorx,
@@ -59,6 +77,6 @@ let restaurantFinder = {
     type: 'mobile-app'
 };
 
-let projectData = [artworx, sultansKitchen, moviesApp, restaurantFinder];
+let projectData = [photorama, artworx, sultansKitchen, moviesApp, restaurantFinder];
 
 export default projectData;
