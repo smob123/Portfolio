@@ -1,36 +1,37 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.428a8316.chunk.css",
-    "main.js": "/Portfolio/static/js/main.8b997a27.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.8b997a27.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.6b6bd227.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.6b6bd227.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.4005ac6c.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.4005ac6c.js.map",
-    "static/js/2.64d7c556.chunk.js": "/Portfolio/static/js/2.64d7c556.chunk.js",
-    "static/js/2.64d7c556.chunk.js.map": "/Portfolio/static/js/2.64d7c556.chunk.js.map",
+    "static/js/2.bd52edbf.chunk.js": "/Portfolio/static/js/2.bd52edbf.chunk.js",
+    "static/js/2.bd52edbf.chunk.js.map": "/Portfolio/static/js/2.bd52edbf.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.47fedda8159138cf7387d65a49520d93.js": "/Portfolio/precache-manifest.47fedda8159138cf7387d65a49520d93.js",
+    "precache-manifest.e0f16bf58cb79977977e606cdfd64e23.js": "/Portfolio/precache-manifest.e0f16bf58cb79977977e606cdfd64e23.js",
     "service-worker.js": "/Portfolio/service-worker.js",
     "static/css/main.428a8316.chunk.css.map": "/Portfolio/static/css/main.428a8316.chunk.css.map",
-    "static/js/2.64d7c556.chunk.js.LICENSE": "/Portfolio/static/js/2.64d7c556.chunk.js.LICENSE",
+    "static/js/2.bd52edbf.chunk.js.LICENSE": "/Portfolio/static/js/2.bd52edbf.chunk.js.LICENSE",
     "static/media/Gatsby.png": "/Portfolio/static/media/Gatsby.bdba4f1e.png",
     "static/media/GraphQL.png": "/Portfolio/static/media/GraphQL.a071b077.png",
     "static/media/JS.png": "/Portfolio/static/media/JS.1f0f3724.png",
     "static/media/Java.png": "/Portfolio/static/media/Java.16aac88e.png",
-    "static/media/MoviesApp.png": "/Portfolio/static/media/MoviesApp.894c06a1.png",
     "static/media/styles.css": "/Portfolio/static/media/background.05acca4f.jpg",
     "static/media/React.png": "/Portfolio/static/media/React.824687bf.png",
     "static/media/ReactNative.png": "/Portfolio/static/media/ReactNative.a06de35b.png",
-    "static/media/RestaurantFinder.png": "/Portfolio/static/media/RestaurantFinder.53ecca5f.png",
-    "static/media/SultansKitchen.PNG": "/Portfolio/static/media/SultansKitchen.2878be5f.PNG",
     "static/media/artworx.png": "/Portfolio/static/media/artworx.bc7296be.png",
     "static/media/groceristar.PNG": "/Portfolio/static/media/groceristar.ba3c2a76.PNG",
+    "static/media/moviesApp.png": "/Portfolio/static/media/moviesApp.894c06a1.png",
+    "static/media/photorama.png": "/Portfolio/static/media/photorama.8ef40868.png",
     "static/media/profile-img.jpg": "/Portfolio/static/media/profile-img.91d7a308.jpg",
-    "static/media/rdcsi.jpg": "/Portfolio/static/media/rdcsi.d6e24acc.jpg"
+    "static/media/rdcsi.jpg": "/Portfolio/static/media/rdcsi.d6e24acc.jpg",
+    "static/media/restaurantFinder.png": "/Portfolio/static/media/restaurantFinder.53ecca5f.png",
+    "static/media/sultansKitchen.PNG": "/Portfolio/static/media/sultansKitchen.2878be5f.PNG"
   },
   "entrypoints": [
     "static/js/runtime-main.4005ac6c.js",
-    "static/js/2.64d7c556.chunk.js",
+    "static/js/2.bd52edbf.chunk.js",
     "static/css/main.428a8316.chunk.css",
-    "static/js/main.8b997a27.chunk.js"
+    "static/js/main.6b6bd227.chunk.js"
   ]
 }

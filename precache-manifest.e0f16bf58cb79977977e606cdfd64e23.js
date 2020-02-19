@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c9a6b36449c2869d106c7ddab5b98280",
+    "revision": "42395bd024d5b50cb0ec10931bd19844",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "fbb4aa26c7aa42f47384",
+    "revision": "2e4442e6fa38cd268004",
     "url": "/Portfolio/static/css/main.428a8316.chunk.css"
   },
   {
-    "revision": "0df6fed8d53085185b17",
-    "url": "/Portfolio/static/js/2.64d7c556.chunk.js"
+    "revision": "2ca8a84842bd47b577c2",
+    "url": "/Portfolio/static/js/2.bd52edbf.chunk.js"
   },
   {
     "revision": "4fdc00fbc861a978a4476cc8b3c4086f",
-    "url": "/Portfolio/static/js/2.64d7c556.chunk.js.LICENSE"
+    "url": "/Portfolio/static/js/2.bd52edbf.chunk.js.LICENSE"
   },
   {
-    "revision": "fbb4aa26c7aa42f47384",
-    "url": "/Portfolio/static/js/main.8b997a27.chunk.js"
+    "revision": "2e4442e6fa38cd268004",
+    "url": "/Portfolio/static/js/main.6b6bd227.chunk.js"
   },
   {
     "revision": "fc5338d523801bf5e718",
@@ -40,10 +40,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/Java.16aac88e.png"
   },
   {
-    "revision": "894c06a1e1ae6c2eae3177fe6d97e283",
-    "url": "/Portfolio/static/media/MoviesApp.894c06a1.png"
-  },
-  {
     "revision": "3ed9575dcc488c3e3a5bd66620bdf5a4",
     "url": "/Portfolio/static/media/OpenSans-Regular.3ed9575d.ttf"
   },
@@ -64,14 +60,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/ReactNative.a06de35b.png"
   },
   {
-    "revision": "53ecca5fb46f726ac918ee7caeaf2a7a",
-    "url": "/Portfolio/static/media/RestaurantFinder.53ecca5f.png"
-  },
-  {
-    "revision": "2878be5f1c34daf5398f8f5ddba6038b",
-    "url": "/Portfolio/static/media/SultansKitchen.2878be5f.PNG"
-  },
-  {
     "revision": "bc7296be0300805adf50594dcba208aa",
     "url": "/Portfolio/static/media/artworx.bc7296be.png"
   },
@@ -84,11 +72,27 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/groceristar.ba3c2a76.PNG"
   },
   {
+    "revision": "894c06a1e1ae6c2eae3177fe6d97e283",
+    "url": "/Portfolio/static/media/moviesApp.894c06a1.png"
+  },
+  {
+    "revision": "8ef40868db663235e0b8fff789e3f524",
+    "url": "/Portfolio/static/media/photorama.8ef40868.png"
+  },
+  {
     "revision": "91d7a308b7907d31487148f91cc4f4de",
     "url": "/Portfolio/static/media/profile-img.91d7a308.jpg"
   },
   {
     "revision": "d6e24accc2c69be95a2913b52089ea2d",
     "url": "/Portfolio/static/media/rdcsi.d6e24acc.jpg"
+  },
+  {
+    "revision": "53ecca5fb46f726ac918ee7caeaf2a7a",
+    "url": "/Portfolio/static/media/restaurantFinder.53ecca5f.png"
+  },
+  {
+    "revision": "2878be5f1c34daf5398f8f5ddba6038b",
+    "url": "/Portfolio/static/media/sultansKitchen.2878be5f.PNG"
   }
 ]);
