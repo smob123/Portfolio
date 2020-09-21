@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.7395a481.chunk.css",
-    "main.js": "/static/js/main.b2ab4fed.chunk.js",
-    "main.js.map": "/static/js/main.b2ab4fed.chunk.js.map",
+    "main.css": "/static/css/main.b7fd7aa3.chunk.css",
+    "main.js": "/static/js/main.6c9c76e8.chunk.js",
+    "main.js.map": "/static/js/main.6c9c76e8.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e5fc83a6.js",
     "runtime-main.js.map": "/static/js/runtime-main.e5fc83a6.js.map",
-    "static/js/2.4400180c.chunk.js": "/static/js/2.4400180c.chunk.js",
-    "static/js/2.4400180c.chunk.js.map": "/static/js/2.4400180c.chunk.js.map",
+    "static/js/2.0052c448.chunk.js": "/static/js/2.0052c448.chunk.js",
+    "static/js/2.0052c448.chunk.js.map": "/static/js/2.0052c448.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.8d1f18aa3a2195a95d66f181ac04d6d4.js": "/precache-manifest.8d1f18aa3a2195a95d66f181ac04d6d4.js",
+    "precache-manifest.4526b5c8b58d6fac44c5bab9e6343bf7.js": "/precache-manifest.4526b5c8b58d6fac44c5bab9e6343bf7.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.7395a481.chunk.css.map": "/static/css/main.7395a481.chunk.css.map",
-    "static/js/2.4400180c.chunk.js.LICENSE.txt": "/static/js/2.4400180c.chunk.js.LICENSE.txt",
+    "static/css/main.b7fd7aa3.chunk.css.map": "/static/css/main.b7fd7aa3.chunk.css.map",
+    "static/js/2.0052c448.chunk.js.LICENSE.txt": "/static/js/2.0052c448.chunk.js.LICENSE.txt",
     "static/media/Gatsby.png": "/static/media/Gatsby.bdba4f1e.png",
     "static/media/GraphQL.png": "/static/media/GraphQL.a071b077.png",
     "static/media/JS.png": "/static/media/JS.1f0f3724.png",
@@ -21,6 +21,7 @@
     "static/media/ReactNative.png": "/static/media/ReactNative.a06de35b.png",
     "static/media/artworx.png": "/static/media/artworx.bc7296be.png",
     "static/media/groceristar.PNG": "/static/media/groceristar.ba3c2a76.PNG",
+    "static/media/instachat.png": "/static/media/instachat.a2ef2c0a.png",
     "static/media/moviesApp.png": "/static/media/moviesApp.894c06a1.png",
     "static/media/photorama.png": "/static/media/photorama.8ef40868.png",
     "static/media/profile-img.jpg": "/static/media/profile-img.91d7a308.jpg",
@@ -30,8 +31,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.e5fc83a6.js",
-    "static/js/2.4400180c.chunk.js",
-    "static/css/main.7395a481.chunk.css",
-    "static/js/main.b2ab4fed.chunk.js"
+    "static/js/2.0052c448.chunk.js",
+    "static/css/main.b7fd7aa3.chunk.css",
+    "static/js/main.6c9c76e8.chunk.js"
   ]
 }
