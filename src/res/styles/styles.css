@@ -51,7 +51,7 @@
 
 ::-webkit-scrollbar-track {
     border-radius: .5rem;
-    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
 
 body {
@@ -68,7 +68,7 @@ h1 {
 h1,
 h2,
 h3 {
-    
+
     color: #efefef;
     font-family: 'Poppins', 'sans-serif';
     font-weight: bold;
@@ -148,7 +148,7 @@ a {
     left: -1rem;
     width: 100vw;
     height: 100vh;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 /* background behind the phone-nav, and li elements under main-nav */
@@ -346,7 +346,7 @@ a {
 }
 
 .section-heading,
-.section-heading + .secondary-color {
+.section-heading+.secondary-color {
     display: inline-block;
     margin-bottom: 2rem;
 }
@@ -403,7 +403,7 @@ a {
     bottom: 10px;
 }
 
-#about-section .container > span {
+#about-section .container>span {
     display: block;
     margin: auto;
     margin-bottom: 5rem;
@@ -518,6 +518,7 @@ a {
     background-color: var(--secondaryColor);
     opacity: 0;
     transition-duration: .3s;
+    border-radius: inherit;
 }
 
 .project-container .project-title-container:hover {
@@ -695,6 +696,7 @@ footer p {
 
 
 @media (min-width: 600px) {
+
     /* header */
     #header .container {
         flex-direction: row;
@@ -725,20 +727,21 @@ footer p {
 }
 
 @media (min-width: 1024px) {
+
     /* about section */
     #about-section .info-container {
         width: 60%;
         margin: 5rem auto;
     }
 
-    #about-section .container > span {
+    #about-section .container>span {
         width: 50%;
     }
 
     #about-section .info-list {
         display: flex;
         width: 50%;
-        margin:  5rem auto;
+        margin: 5rem auto;
         flex-wrap: wrap;
         align-items: center;
     }
@@ -754,7 +757,7 @@ footer p {
         justify-content: center;
     }
 
-    #about-section .timelines-container > div {
+    #about-section .timelines-container>div {
         width: 50%;
         padding-left: 15%;
     }
@@ -808,24 +811,24 @@ footer p {
         transform: translateX(200%);
     }
 
-   #projects .project-details-container .project-container {
+    #projects .project-details-container .project-container {
         width: 60%;
     }
-    
+
     #projects .project-details-container.visible {
         transform: translateX(100%);
     }
 
     #projects.overlayed::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left:0;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-    height: 200vh;
-    background-color: rgba(0,0,0,0.5);
-    z-index: 1;
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 200vh;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 1;
     }
 }

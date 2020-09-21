@@ -1,8 +1,9 @@
 /**
- * data about my personal projects.
+ * my personal projects.
  */
 
-import Photorama from '../images/photorama.png'
+import Photorama from '../images/photorama.png';
+import InstaChat from '../images/instachat.png';
 import ArtWorx from '../images/artworx.png';
 import RestaurantFinder from '../images/restaurantFinder.png';
 import MoviesApp from '../images/moviesApp.png';
@@ -25,6 +26,20 @@ let photorama = {
     type: 'mobile-app'
 };
 
+let instachat = {
+    logo: InstaChat,
+    title: 'InstaChat',
+    description: 'An instant messaging app written in Ionic with React as a framework. The app allows users to add each other as friends, and communicate with each other using various types of messages in real time. Each user has their own profile, which can be personalized using avatars and statuses.',
+    link: 'https://github.com/smob123/InstaChat',
+    technologies: [
+        'Ionic',
+        'ReactJS',
+        'GraphQL',
+        'Firebase'
+    ],
+    type: 'mobile-app'
+}
+
 let artworx = {
     logo: ArtWorx,
     title: 'ArtWorx',
@@ -32,9 +47,7 @@ let artworx = {
     link: 'https://github.com/smob123/ArtWorx',
     url: 'https://smob123.github.io/ArtWorx/',
     technologies: [
-        'HTML5',
-        'CSS3',
-        'Javascript'
+        'ReactJS'
     ],
     type: 'website'
 }
@@ -46,9 +59,7 @@ let sultansKitchen = {
     link: 'https://github.com/smob123/Sultan-s-Kitchen',
     url: 'https://smob123.github.io/Sultan-s-Kitchen/',
     technologies: [
-        'HTML5',
-        'CSS3',
-        'Javascript'
+        'ReactJS'
     ],
     type: 'website'
 };
@@ -56,7 +67,7 @@ let sultansKitchen = {
 let moviesApp = {
     logo: MoviesApp,
     title: 'Movies app',
-    description: 'This is a flutter app, that displays trending movies and allows users to search for information about their favourite films',
+    description: 'A flutter app, that displays trending movies and allows users to search for information about their favourite films',
     link: 'https://github.com/smob123/Movies-App',
     technologies: [
         'Flutter'
@@ -77,6 +88,6 @@ let restaurantFinder = {
     type: 'mobile-app'
 };
 
-let projectData = [photorama, artworx, sultansKitchen, moviesApp, restaurantFinder];
+let projectData = [photorama, instachat, artworx, sultansKitchen, moviesApp, restaurantFinder];
 
 export default projectData;
