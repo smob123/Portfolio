@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "30476a8f714af6f38f29ee5d1ced1fc7",
+    "revision": "277b786680517e959f0f1eabfcb2cb5a",
     "url": "/index.html"
   },
   {
-    "revision": "10b642fe2ef9d73505f7",
-    "url": "/static/css/main.b7fd7aa3.chunk.css"
+    "revision": "a00afe82a488435dfa68",
+    "url": "/static/css/main.e172b5dd.chunk.css"
   },
   {
-    "revision": "ed924de785021728580d",
-    "url": "/static/js/2.0052c448.chunk.js"
+    "revision": "1c0f183f982404c65d81",
+    "url": "/static/js/2.7b3e33d6.chunk.js"
   },
   {
-    "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.0052c448.chunk.js.LICENSE.txt"
+    "revision": "a3c66bc87fa121efed0250fdac2dfa2b",
+    "url": "/static/js/2.7b3e33d6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "10b642fe2ef9d73505f7",
-    "url": "/static/js/main.6c9c76e8.chunk.js"
+    "revision": "a00afe82a488435dfa68",
+    "url": "/static/js/main.77beb952.chunk.js"
   },
   {
-    "revision": "b4ba650b238755144e2a",
-    "url": "/static/js/runtime-main.e5fc83a6.js"
+    "revision": "4f2b1704eab49d50853b",
+    "url": "/static/js/runtime-main.19ccc7f6.js"
   },
   {
     "revision": "bdba4f1ee1508a23e52eb780d6d999cb",
@@ -68,16 +68,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/background.05acca4f.jpg"
   },
   {
-    "revision": "ba3c2a76f604639b73771b35e8fc2e32",
-    "url": "/static/media/groceristar.ba3c2a76.PNG"
-  },
-  {
     "revision": "a2ef2c0a74e7b4f240aec5d0c712a0b5",
     "url": "/static/media/instachat.a2ef2c0a.png"
   },
   {
     "revision": "894c06a1e1ae6c2eae3177fe6d97e283",
     "url": "/static/media/moviesApp.894c06a1.png"
+  },
+  {
+    "revision": "583228a62ee4aa35970e226fc62eaa4b",
+    "url": "/static/media/newsApp.583228a6.png"
   },
   {
     "revision": "8ef40868db663235e0b8fff789e3f524",
@@ -88,12 +88,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/profile-img.91d7a308.jpg"
   },
   {
-    "revision": "d6e24accc2c69be95a2913b52089ea2d",
-    "url": "/static/media/rdcsi.d6e24acc.jpg"
-  },
-  {
     "revision": "53ecca5fb46f726ac918ee7caeaf2a7a",
     "url": "/static/media/restaurantFinder.53ecca5f.png"
+  },
+  {
+    "revision": "fa0ab93be6b3032f7c02a6c3591eddf7",
+    "url": "/static/media/seniorWatch.fa0ab93b.png"
   },
   {
     "revision": "2878be5f1c34daf5398f8f5ddba6038b",
