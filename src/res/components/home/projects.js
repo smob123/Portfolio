@@ -3,11 +3,8 @@
  */
 
 import React, { Component } from 'react';
-import contributionsData from '../../data/contributions-data';
 import projectData from '../../data/projects-data';
 import ProjectDetauls from './projectDetails';
-
-let data = [...contributionsData, ...projectData];
 
 export default class Projects extends Component {
     constructor() {
@@ -24,16 +21,16 @@ export default class Projects extends Component {
     addProjects() {
         const projects = [];
         // add each project's image, and data inside of a div
-        for (let i = 0; i < data.length; i++) {
+        for (let i = 0; i < projectData.length; i++) {
             projects.push(
                 <div className='project-container' key={i + 1}>
                     <div>
-                        <img src={data[i].logo} alt={data[i].title} />
+                        <img src={projectData[i].logo} alt={projectData[i].title} />
                     </div>
 
                     {/* overlay that displays on hover, and shows the project's name */}
-                    <div className='project-title-container' key={i + 2} onClick={() => this.setProjectDetails(data[i])}>
-                        <h3>{data[i].title}</h3>
+                    <div className='project-title-container' key={i + 2} onClick={() => this.setProjectDetails(projectData[i])}>
+                        <h3>{projectData[i].title}</h3>
                     </div>
                 </div>
             );

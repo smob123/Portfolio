@@ -8,6 +8,8 @@ import ArtWorx from '../images/artworx.png';
 import RestaurantFinder from '../images/restaurantFinder.png';
 import MoviesApp from '../images/moviesApp.png';
 import SultansKitchen from '../images/sultansKitchen.PNG';
+import NewsApp from '../images/newsApp.png';
+import SeniorWatch from '../images/seniorWatch.png';
 
 let photorama = {
     logo: Photorama,
@@ -29,13 +31,38 @@ let photorama = {
 let instachat = {
     logo: InstaChat,
     title: 'InstaChat',
-    description: 'An instant messaging app written in Ionic with React as a framework. The app allows users to add each other as friends, and communicate with each other using various types of messages in real time. Each user has their own profile, which can be personalized using avatars and statuses.',
+    description: 'An instant messaging app written in Ionic with React as a framework. The app allows users to add each other as friends, and communicate with each other using various types of messages in real time. Each user has their own profile, which can be personalized using avatars and statuses',
     link: 'https://github.com/smob123/InstaChat',
     technologies: [
         'Ionic',
         'ReactJS',
         'GraphQL',
         'Firebase'
+    ],
+    type: 'mobile-app'
+}
+
+let seniorWatch = {
+    logo: SeniorWatch,
+    title: 'Senior Watch',
+    description: 'An Iot application written in Ionic with Angular. The app allows users to monitor the status of a senior in their home through reading emulated sensor data, which is sent periodically to an MQTT broker via a sensor emulator',
+    link: 'https://github.com/smob123/Senior-Watch',
+    technologies: [
+        'Ionic',
+        'Angular',
+        'Paho MQTT'
+    ],
+    type: 'mobile-app'
+}
+
+let newsApp = {
+    logo: NewsApp,
+    title: 'News App',
+    description: 'A news application that allows users to read the latest headlines in multiple news topics',
+    link: 'https://github.com/smob123/News-App',
+    technologies: [
+        'Android',
+        'Java'
     ],
     type: 'mobile-app'
 }
@@ -88,6 +115,6 @@ let restaurantFinder = {
     type: 'mobile-app'
 };
 
-let projectData = [photorama, instachat, artworx, sultansKitchen, moviesApp, restaurantFinder];
+let projectData = [photorama, instachat, seniorWatch, newsApp, moviesApp, restaurantFinder, artworx, sultansKitchen];
 
 export default projectData;
