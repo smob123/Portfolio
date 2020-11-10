@@ -10,6 +10,7 @@ import MoviesApp from '../images/moviesApp.png';
 import SultansKitchen from '../images/sultansKitchen.PNG';
 import NewsApp from '../images/newsApp.png';
 import SeniorWatch from '../images/seniorWatch.png';
+import Tuqs from '../images/tuqs.png';
 
 let photorama = {
     logo: Photorama,
@@ -26,6 +27,21 @@ let photorama = {
         'Firebase'
     ],
     type: 'mobile-app'
+};
+
+let tuqs = {
+    logo: Tuqs,
+    title: 'Tuqs',
+    description: "A weather app that displays the forecast of the user's current location, and allows clients to explore the weather in different parts of the world",
+    link: 'https://github.com/smob123/Tuqs',
+    url: 'https://5faa5849984b4300079ecef0--quizzical-perlman-6e29ec.netlify.app/',
+    technologies: [
+        'ReactJS',
+        'ChartJS',
+        'Mapbox',
+        'Sass'
+    ],
+    type: 'Website'
 };
 
 let instachat = {
@@ -115,6 +131,6 @@ let restaurantFinder = {
     type: 'mobile-app'
 };
 
-let projectData = [photorama, instachat, seniorWatch, newsApp, moviesApp, restaurantFinder, artworx, sultansKitchen];
+let projectData = [photorama, tuqs, instachat, seniorWatch, newsApp, moviesApp, restaurantFinder, artworx, sultansKitchen];
 
 export default projectData;

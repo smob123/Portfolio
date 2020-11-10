@@ -50,7 +50,7 @@ export default class About extends Component {
 
                 {/*a subheading */}
                 <span>
-                    My name is Sultan, I am a computer sicence student
+                    My name is Sultan, I am a computer science student
                     who is enthusiastic about web and mobile development.
                     I enjoy turning designs into fully functional websites,
                     creating native android applications, as well as developing
