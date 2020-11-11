@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.e172b5dd.chunk.css",
-    "main.js": "/static/js/main.27a01762.chunk.js",
-    "main.js.map": "/static/js/main.27a01762.chunk.js.map",
+    "main.js": "/static/js/main.94a37fb3.chunk.js",
+    "main.js.map": "/static/js/main.94a37fb3.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
     "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
-    "static/js/2.618e53c2.chunk.js": "/static/js/2.618e53c2.chunk.js",
-    "static/js/2.618e53c2.chunk.js.map": "/static/js/2.618e53c2.chunk.js.map",
+    "static/js/2.72742933.chunk.js": "/static/js/2.72742933.chunk.js",
+    "static/js/2.72742933.chunk.js.map": "/static/js/2.72742933.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b47a6528be11a8f672183949d5105c59.js": "/precache-manifest.b47a6528be11a8f672183949d5105c59.js",
+    "precache-manifest.113642be12f24964ba17e95fe45bbb1f.js": "/precache-manifest.113642be12f24964ba17e95fe45bbb1f.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.e172b5dd.chunk.css.map": "/static/css/main.e172b5dd.chunk.css.map",
-    "static/js/2.618e53c2.chunk.js.LICENSE.txt": "/static/js/2.618e53c2.chunk.js.LICENSE.txt",
+    "static/js/2.72742933.chunk.js.LICENSE.txt": "/static/js/2.72742933.chunk.js.LICENSE.txt",
     "static/media/Gatsby.png": "/static/media/Gatsby.bdba4f1e.png",
     "static/media/GraphQL.png": "/static/media/GraphQL.a071b077.png",
     "static/media/JS.png": "/static/media/JS.1f0f3724.png",
@@ -20,6 +20,7 @@
     "static/media/React.png": "/static/media/React.824687bf.png",
     "static/media/ReactNative.png": "/static/media/ReactNative.a06de35b.png",
     "static/media/artworx.png": "/static/media/artworx.bc7296be.png",
+    "static/media/ecommerceWebsite.png": "/static/media/ecommerceWebsite.f8c364d4.png",
     "static/media/instachat.png": "/static/media/instachat.a2ef2c0a.png",
     "static/media/moviesApp.png": "/static/media/moviesApp.894c06a1.png",
     "static/media/newsApp.png": "/static/media/newsApp.583228a6.png",
@@ -32,8 +33,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.19ccc7f6.js",
-    "static/js/2.618e53c2.chunk.js",
+    "static/js/2.72742933.chunk.js",
     "static/css/main.e172b5dd.chunk.css",
-    "static/js/main.27a01762.chunk.js"
+    "static/js/main.94a37fb3.chunk.js"
   ]
 }
