@@ -11,6 +11,7 @@ import SultansKitchen from '../images/sultansKitchen.PNG';
 import NewsApp from '../images/newsApp.png';
 import SeniorWatch from '../images/seniorWatch.png';
 import Tuqs from '../images/tuqs.png';
+import ECommerceWebsite from '../images/ecommerceWebsite.png';
 
 let photorama = {
     logo: Photorama,
@@ -34,12 +35,27 @@ let tuqs = {
     title: 'Tuqs',
     description: "A weather app that displays the forecast of the user's current location, and allows clients to explore the weather in different parts of the world",
     link: 'https://github.com/smob123/Tuqs',
-    url: 'https://5faa5849984b4300079ecef0--quizzical-perlman-6e29ec.netlify.app/',
+    url: 'https://quizzical-perlman-6e29ec.netlify.app/',
     technologies: [
         'ReactJS',
         'ChartJS',
         'Mapbox',
         'Sass'
+    ],
+    type: 'Website'
+};
+
+let eCommerceWebsite = {
+    logo: ECommerceWebsite,
+    title: 'e-Commerce Website',
+    description: "A website created for the course NWEN304 as part of the Group project. The project is a basic e-commerce platform that allows the user to shop for a number of different clothing items and add them to their cart and finally check out. The application consists of a web application, as well as an API",
+    link: 'https://github.com/smob123/NWEN304_Group_Project',
+    url: 'https://nwen-304-web-app.herokuapp.com/',
+    technologies: [
+        'ExpressJS',
+        'EJS',
+        'MongoDB',
+        'PassportJS'
     ],
     type: 'Website'
 };
@@ -131,6 +147,6 @@ let restaurantFinder = {
     type: 'mobile-app'
 };
 
-let projectData = [photorama, tuqs, instachat, seniorWatch, newsApp, moviesApp, restaurantFinder, artworx, sultansKitchen];
+let projectData = [photorama, tuqs, eCommerceWebsite, instachat, seniorWatch, newsApp, moviesApp, artworx, sultansKitchen, restaurantFinder];
 
 export default projectData;
