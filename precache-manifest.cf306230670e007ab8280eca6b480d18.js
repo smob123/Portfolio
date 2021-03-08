@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9b8547e44a8757efa8f22c9cb6fb9903",
+    "revision": "336b0e2e3a2364a43c590b380c926869",
     "url": "/index.html"
   },
   {
-    "revision": "f9b1c014ff745a7b14e4",
+    "revision": "018df955ca453bc14ba6",
     "url": "/static/css/main.e172b5dd.chunk.css"
   },
   {
-    "revision": "33922c100406639ce052",
-    "url": "/static/js/2.72742933.chunk.js"
+    "revision": "2035bd6b1e98c36122ed",
+    "url": "/static/js/2.0a34b2ef.chunk.js"
   },
   {
     "revision": "a3c66bc87fa121efed0250fdac2dfa2b",
-    "url": "/static/js/2.72742933.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.0a34b2ef.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f9b1c014ff745a7b14e4",
-    "url": "/static/js/main.6748ed9a.chunk.js"
+    "revision": "018df955ca453bc14ba6",
+    "url": "/static/js/main.f2d14dc2.chunk.js"
   },
   {
     "revision": "4f2b1704eab49d50853b",
@@ -60,16 +60,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/ReactNative.a06de35b.png"
   },
   {
-    "revision": "bc7296be0300805adf50594dcba208aa",
-    "url": "/static/media/artworx.bc7296be.png"
-  },
-  {
     "revision": "05acca4ff6b29fe838873a159b333e52",
     "url": "/static/media/background.05acca4f.jpg"
-  },
-  {
-    "revision": "f8c364d470cbba86cca6311b28501b7d",
-    "url": "/static/media/ecommerceWebsite.f8c364d4.png"
   },
   {
     "revision": "a2ef2c0a74e7b4f240aec5d0c712a0b5",
@@ -92,16 +84,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/profile-img.91d7a308.jpg"
   },
   {
-    "revision": "53ecca5fb46f726ac918ee7caeaf2a7a",
-    "url": "/static/media/restaurantFinder.53ecca5f.png"
-  },
-  {
     "revision": "fa0ab93be6b3032f7c02a6c3591eddf7",
     "url": "/static/media/seniorWatch.fa0ab93b.png"
   },
   {
-    "revision": "2878be5f1c34daf5398f8f5ddba6038b",
-    "url": "/static/media/sultansKitchen.2878be5f.PNG"
+    "revision": "972fd7e342d9bddd52ab975a6acebe14",
+    "url": "/static/media/shopaholic.972fd7e3.png"
   },
   {
     "revision": "49a3b3e7d21dad0229298355f72307ec",

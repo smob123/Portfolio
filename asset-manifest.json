@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.e172b5dd.chunk.css",
-    "main.js": "/static/js/main.6748ed9a.chunk.js",
-    "main.js.map": "/static/js/main.6748ed9a.chunk.js.map",
+    "main.js": "/static/js/main.f2d14dc2.chunk.js",
+    "main.js.map": "/static/js/main.f2d14dc2.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
     "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
-    "static/js/2.72742933.chunk.js": "/static/js/2.72742933.chunk.js",
-    "static/js/2.72742933.chunk.js.map": "/static/js/2.72742933.chunk.js.map",
+    "static/js/2.0a34b2ef.chunk.js": "/static/js/2.0a34b2ef.chunk.js",
+    "static/js/2.0a34b2ef.chunk.js.map": "/static/js/2.0a34b2ef.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.85c2e6ae50cea33b1306e7414e03d209.js": "/precache-manifest.85c2e6ae50cea33b1306e7414e03d209.js",
+    "precache-manifest.cf306230670e007ab8280eca6b480d18.js": "/precache-manifest.cf306230670e007ab8280eca6b480d18.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.e172b5dd.chunk.css.map": "/static/css/main.e172b5dd.chunk.css.map",
-    "static/js/2.72742933.chunk.js.LICENSE.txt": "/static/js/2.72742933.chunk.js.LICENSE.txt",
+    "static/js/2.0a34b2ef.chunk.js.LICENSE.txt": "/static/js/2.0a34b2ef.chunk.js.LICENSE.txt",
     "static/media/Gatsby.png": "/static/media/Gatsby.bdba4f1e.png",
     "static/media/GraphQL.png": "/static/media/GraphQL.a071b077.png",
     "static/media/JS.png": "/static/media/JS.1f0f3724.png",
@@ -19,22 +19,19 @@
     "static/media/styles.css": "/static/media/background.05acca4f.jpg",
     "static/media/React.png": "/static/media/React.824687bf.png",
     "static/media/ReactNative.png": "/static/media/ReactNative.a06de35b.png",
-    "static/media/artworx.png": "/static/media/artworx.bc7296be.png",
-    "static/media/ecommerceWebsite.png": "/static/media/ecommerceWebsite.f8c364d4.png",
     "static/media/instachat.png": "/static/media/instachat.a2ef2c0a.png",
     "static/media/moviesApp.png": "/static/media/moviesApp.894c06a1.png",
     "static/media/newsApp.png": "/static/media/newsApp.583228a6.png",
     "static/media/photorama.png": "/static/media/photorama.8ef40868.png",
     "static/media/profile-img.jpg": "/static/media/profile-img.91d7a308.jpg",
-    "static/media/restaurantFinder.png": "/static/media/restaurantFinder.53ecca5f.png",
     "static/media/seniorWatch.png": "/static/media/seniorWatch.fa0ab93b.png",
-    "static/media/sultansKitchen.PNG": "/static/media/sultansKitchen.2878be5f.PNG",
+    "static/media/shopaholic.png": "/static/media/shopaholic.972fd7e3.png",
     "static/media/tuqs.png": "/static/media/tuqs.49a3b3e7.png"
   },
   "entrypoints": [
     "static/js/runtime-main.19ccc7f6.js",
-    "static/js/2.72742933.chunk.js",
+    "static/js/2.0a34b2ef.chunk.js",
     "static/css/main.e172b5dd.chunk.css",
-    "static/js/main.6748ed9a.chunk.js"
+    "static/js/main.f2d14dc2.chunk.js"
   ]
 }
