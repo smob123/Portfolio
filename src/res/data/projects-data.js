@@ -4,14 +4,11 @@
 
 import Photorama from '../images/photorama.png';
 import InstaChat from '../images/instachat.png';
-import ArtWorx from '../images/artworx.png';
-import RestaurantFinder from '../images/restaurantFinder.png';
 import MoviesApp from '../images/moviesApp.png';
-import SultansKitchen from '../images/sultansKitchen.PNG';
 import NewsApp from '../images/newsApp.png';
 import SeniorWatch from '../images/seniorWatch.png';
 import Tuqs from '../images/tuqs.png';
-import ECommerceWebsite from '../images/ecommerceWebsite.png';
+import Shopaholic from '../images/shopaholic.png'
 
 let photorama = {
     logo: Photorama,
@@ -30,6 +27,24 @@ let photorama = {
     type: 'mobile-app'
 };
 
+let shopaholic = {
+    logo: Shopaholic,
+    title: 'Shopaholic',
+    description: "An ecommerce website, that allows users to create accounts, browse products, add items to their cart, checkout, view order history, and more",
+    link: 'https://github.com/smob123/Shopaholic',
+    url: 'https://shopaholic.azurewebsites.net/',
+    technologies: [
+        'ASP.NET Core',
+        'Entity Framework',
+        'SQL Server',
+        'Stripe',
+        'ReactJS',
+        'SASS',
+        'Bootstrap'
+    ],
+    type: 'Website'
+}
+
 let tuqs = {
     logo: Tuqs,
     title: 'Tuqs',
@@ -41,21 +56,6 @@ let tuqs = {
         'ChartJS',
         'Mapbox',
         'Sass'
-    ],
-    type: 'Website'
-};
-
-let eCommerceWebsite = {
-    logo: ECommerceWebsite,
-    title: 'e-Commerce Website',
-    description: "A website created for the course NWEN304 as part of the Group project. The project is a basic e-commerce platform that allows the user to shop for a number of different clothing items and add them to their cart and finally check out. The application consists of a web application, as well as an API",
-    link: 'https://github.com/smob123/NWEN304_Group_Project',
-    url: 'https://nwen-304-web-app.herokuapp.com/',
-    technologies: [
-        'ExpressJS',
-        'EJS',
-        'MongoDB',
-        'PassportJS'
     ],
     type: 'Website'
 };
@@ -99,30 +99,6 @@ let newsApp = {
     type: 'mobile-app'
 }
 
-let artworx = {
-    logo: ArtWorx,
-    title: 'ArtWorx',
-    description: 'A fictional digital agency website',
-    link: 'https://github.com/smob123/ArtWorx',
-    url: 'https://smob123.github.io/ArtWorx/',
-    technologies: [
-        'ReactJS'
-    ],
-    type: 'website'
-}
-
-let sultansKitchen = {
-    logo: SultansKitchen,
-    title: "Sultan's Kitchen",
-    description: 'A fictional resturant website',
-    link: 'https://github.com/smob123/Sultan-s-Kitchen',
-    url: 'https://smob123.github.io/Sultan-s-Kitchen/',
-    technologies: [
-        'ReactJS'
-    ],
-    type: 'website'
-};
-
 let moviesApp = {
     logo: MoviesApp,
     title: 'Movies app',
@@ -134,19 +110,6 @@ let moviesApp = {
     type: 'mobile-app'
 };
 
-let restaurantFinder = {
-    logo: RestaurantFinder,
-    title: 'Restaurant Finder',
-    description: 'A React Native app that displays nearby restaurants',
-    link: 'https://github.com/smob123/Restaurant-finder',
-    technologies: [
-        'Javascript',
-        'React Native',
-        'Graphql'
-    ],
-    type: 'mobile-app'
-};
-
-let projectData = [photorama, tuqs, eCommerceWebsite, instachat, seniorWatch, newsApp, moviesApp, artworx, sultansKitchen, restaurantFinder];
+let projectData = [photorama, shopaholic, tuqs, instachat, seniorWatch, newsApp, moviesApp];
 
 export default projectData;
