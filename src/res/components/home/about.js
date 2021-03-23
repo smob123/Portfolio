@@ -24,7 +24,7 @@ export default class About extends Component {
             { title: 'First Name', desc: 'Sultan' },
             { title: 'Last Name', desc: 'Banabila' },
             { title: 'Nationality', desc: 'Saudi' },
-            { title: 'Residence', desc: 'New Zealand' },
+            { title: 'Residence', desc: 'Jeddah' },
             { title: 'Languages', desc: 'Arabic, English' }
         ];
 
@@ -60,7 +60,7 @@ export default class About extends Component {
 
                 {/* a profile image */}
                 <div className='img-container'>
-                    <img src={require('../../images/profile-img.jpg')} alt='phone and laptop' />
+                    <img src={require('../../images/profile-img.jpg')} alt='personal image' />
                 </div>
 
                 {/* the list of information that was added above */}

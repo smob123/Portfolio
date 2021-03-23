@@ -129,7 +129,7 @@ export default class Header extends Component {
                         {/* short about me paragraph */}
                         <div className='p1-container'>
                             <span>
-                                I'm a software developer based in Wellington, New Zealand.
+                                I'm a software developer based in Jeddah, Saudi Arabia.
                                 I strive to make business applications; namely, websites,
                                 and mobile applications.
                             </span>
