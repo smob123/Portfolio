@@ -13,8 +13,8 @@ export default function App() {
         /**
      * initializes connection to Google Analytics
      */
-        // ReactGA.initialize('UA-139609071-1');
-        // ReactGA.pageview('/');
+        ReactGA.initialize('UA-139609071-1');
+        ReactGA.pageview('/');
     }, []);
 
     return (
