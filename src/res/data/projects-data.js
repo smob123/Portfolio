@@ -2,13 +2,13 @@
  * my personal projects.
  */
 
-import Photorama from '../images/photorama.png';
-import InstaChat from '../images/instachat.png';
-import MoviesApp from '../images/moviesApp.png';
-import NewsApp from '../images/newsApp.png';
-import SeniorWatch from '../images/seniorWatch.png';
-import Tuqs from '../images/tuqs.png';
-import Shopaholic from '../images/shopaholic.png'
+import Photorama from '../images/photorama.jpg';
+import InstaChat from '../images/instachat.jpg';
+import MoviesApp from '../images/movies-app.jpg';
+import NewsApp from '../images/news-app.jpg';
+import SeniorWatch from '../images/senior-watch.jpg';
+import Tuqs from '../images/tuqs.jpg';
+import Shopaholic from '../images/shopaholic.jpg'
 
 let photorama = {
     logo: Photorama,

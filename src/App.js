@@ -1,28 +1,32 @@
-import React, { Component } from 'react';
+import React, { useEffect } from 'react';
 import ReactGA from 'react-ga';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
+import ScrollToTop from './res/components/general/scrollToTop';
+import Nav from './res/components/home/nav';
 import Home from './res/pages/home';
-class App extends Component {
+import Footer from './res/components/home/footer';
+import './res/styles/styles.css';
 
-    componentDidMount() {
-        this.initializeReactGA();
-    }
+export default function App() {
 
-    /**
+    useEffect(() => {
+        /**
      * initializes connection to Google Analytics
      */
-    initializeReactGA() {
-        ReactGA.initialize('UA-139609071-1');
-        ReactGA.pageview('/');
-    }
+        // ReactGA.initialize('UA-139609071-1');
+        // ReactGA.pageview('/');
+    }, []);
 
-    render() {
-        return (
-            <Router basename={process.env.PUBLIC_URL}>
-                <Route exact path={'/'} component={Home} />
-            </Router>
-        );
-    }
+    return (
+
+        <Router basename={process.env.PUBLIC_URL}>
+            <div className='w-100'>
+                <ScrollToTop>
+                    <Nav />
+                    <Route exact path='/' component={Home} />
+                    <Footer />
+                </ScrollToTop>
+            </div>
+        </Router>
+    );
 }
-
-export default App;
