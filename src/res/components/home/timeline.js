@@ -2,47 +2,48 @@
  * displays a list of elements in a timeline.
  */
 
-import React, { Component } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCalendarAlt } from '@fortawesome/free-solid-svg-icons';
+import React, { useEffect, useState } from 'react';
 
-export default class Timeline extends Component {
-    constructor(props) {
-        super(props);
-        this.state = { items: this.addItems() };
-    }
+export default function Timeline(props) {
+    const [timelineItems, setTimeLineItems] = useState([]);
+
+    useEffect(() => {
+        setTimeLineItems(getItems());
+    }, []);
 
     /**
      * add list of items to the section
      */
-    addItems() {
-        const propItems = this.props.items;
+    const getItems = () => {
+        const propItems = props.items;
         const items = []
 
         propItems.forEach((item, index) => {
+            const position = index % 2 === 0 ? 'left' : 'right';
+
             items.push(
-                <div className='timeline-item' key={`${item.title}${index}`}>
-                    <div className='content'>
-                        <div className='date-container'>
+                <div key={`${Date.now()}_${index * index}`}>
+                    <div className='circle'></div>
+                    <div className={`card mb-6 ${position}`} key={`${item.title}${index}`}>
+                        <div className='card-header'>
                             {/* the item's date */}
                             <span>
-                                <span className='secondary-color'>&#9658; &nbsp;</span>
-                                <FontAwesomeIcon icon={faCalendarAlt} />
-                                &nbsp;
                                 {item.date}
                             </span>
                         </div>
 
-                        <div className='title-container'>
-                            {/* the item's title */}
-                            <span>
-                                {item.title}
-                            </span>
-                        </div>
+                        <div className='card-body'>
+                            <div className='card-title'>
+                                {/* the item's title */}
+                                <span>
+                                    {item.title}
+                                </span>
+                            </div>
 
-                        {/* the item's description */}
-                        <div className='desc-container'>
-                            <span>{item.desc}</span>
+                            {/* the item's description */}
+                            <div>
+                                <span className='light-text'>{item.desc}</span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -52,16 +53,13 @@ export default class Timeline extends Component {
         return items;
     }
 
-    render() {
-        return (
-            <div>
-                {/* timeline's title */}
-                <h2>{this.props.title}</h2>
-                {/* list of items in the timeline */}
-                <div className='timeline'>
-                    {this.state.items}
-                </div>
+    return (
+        <div className='timeline-container'>
+            <h3>{props.title}</h3>
+            {/* list of items in the timeline */}
+            <div className='timeline'>
+                {timelineItems}
             </div>
-        );
-    }
+        </div>
+    );
 }

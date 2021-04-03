@@ -1,43 +1,41 @@
 /**
- * main container that holds all the website's components.
- */
+* main container that holds all the website's components.
+*/
 
 import React, { Component } from 'react';
-import '../styles/styles.css';
-import Nav from '../components/home/nav';
 import Header from '../components/home/header';
 import About from '../components/home/about';
-import Projects from '../components/home/projects';
-import Contact from '../components/home/contact';
-import Footer from '../components/home/footer';
+import Skills from '../components/home/skills';
+import Resume from '../components/home/resume';
+import Portfolio from '../components/home/portfolio';
 
 export default class Home extends Component {
     render() {
         return (
-            <main>
-                <div className='nav-container'>
-                    <Nav />
-                </div>
+            <div>
+                <section id='home'>
+                    <Header />
+                </section>
 
-                <div className="main-content-container">
-                    <section id='header'>
-                        <Header />
-                    </section>
-                    <section id='about-section'>
+                <main>
+
+                    <section id='about'>
                         <About />
                     </section>
 
-                    <Projects />
-
-                    <section id="contact">
-                        <Contact />
-
-                        <footer>
-                            <Footer />
-                        </footer>
+                    <section id='skills'>
+                        <Skills />
                     </section>
-                </div>
-            </main>
+
+                    <section id='resume'>
+                        <Resume />
+                    </section>
+
+                    <section id='portfolio'>
+                        <Portfolio />
+                    </section>
+                </main>
+            </div>
         );
     }
 }

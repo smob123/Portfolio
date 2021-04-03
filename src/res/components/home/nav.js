@@ -2,93 +2,142 @@
  * navigation component.
  */
 
-import React, { Component } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome, faBriefcase } from '@fortawesome/free-solid-svg-icons';
-import { faUser, faEnvelope } from '@fortawesome/free-regular-svg-icons';
-import NavAnimations from '../../components/general/Animations';
+import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
-// list of sections on the site
-const navList = [
-    {
-        title: 'home',
-        icon: faHome,
-        active: true
-    },
-    {
-        title: 'about',
-        icon: faUser,
-        active: false
-    },
-    {
-        title: 'projects',
-        icon: faBriefcase,
-        active: false
-    },
-    {
-        title: 'contact',
-        icon: faEnvelope,
-        active: false
-    }];
+export default function Nav() {
 
-export default class Nav extends Component {
+    const [activeNavLinkIndex, setActiveNavLinkIndex] = useState(0);
 
-    constructor(props) {
-        super(props);
-        this.state = {
-            navListItems: []
-        };
-    }
+    useEffect(() => {
+        window.addEventListener('scroll', () => {
+            const navContainer = document.querySelector('.nav-container');
+            if (!navContainer) {
+                return;
+            }
 
-    componentDidMount() {
-        NavAnimations.setNavigationListener();
-        this.setState({
-            navListItems: this.getSections()
+            if (window.scrollY === 0) {
+                navContainer.classList.remove('light');
+                setActiveNavLinkIndex(0);
+                return;
+            } else if (!navContainer.classList.contains('light')) {
+                navContainer.classList.add('light');
+            }
+
+            const navElements = document.querySelectorAll('.main-nav ul li a');
+
+            if (navElements.length < 1) {
+                return;
+            }
+
+            for (let i = 0; i < navElements.length; i++) {
+                const element = navElements[i];
+                const section = document.querySelector(`#${element.textContent}`);
+
+                if (!section) {
+                    return;
+                }
+
+                let elementYPosition = section.getBoundingClientRect().top;
+                let elementHeight = section.getBoundingClientRect().bottom;
+
+                const elementInView = elementYPosition + elementHeight >= 0;
+
+                // console.log(element.textContent, section.offsetTop)
+
+                if (elementInView && activeNavLinkIndex !== i) {
+                    setActiveNavLinkIndex(i);
+                    break;
+                }
+            }
         });
-    }
+    }, []);
 
-    /**
-     * add the sections into li elements
-     */
-    getSections() {
-        const nav = [];
+    const getNavItems = () => {
+        // list of sections on the site
+        const navLinks = [
+            {
+                title: 'home',
+                link: '#home'
+            },
+            {
+                title: 'about',
+                link: '#about'
+            },
+            {
+                title: 'skills',
+                link: '#skills'
+            },
+            {
+                title: 'resume',
+                link: '#resume'
+            },
+            {
+                title: 'portfolio',
+                link: '#portfolio'
+            }
+        ];
 
-        for (let i = 0; i < navList.length; i++) {
-            let item = navList[i];
-            const className = item.active ? 'active' : '';
+        const navHtmlElements = [];
 
-            nav.push(
-                <li className={className} key={`${className} ${i}`}>
-                    <div onClick={() => NavAnimations.goToSection(i)}>
-                        <FontAwesomeIcon icon={item.icon} size='lg' />
-                        <span>{item.title}</span>
-                    </div>
+        for (let i = 0; i < navLinks.length; i++) {
+            const link = navLinks[i];
+            const element = document.querySelector(link.link);
+
+            navHtmlElements.push(
+                <li onClick={() => { toggleNav(); }} key={`${Date.now()}_${link.title}_link`}>
+                    <Link
+                        to=''
+                        onClick={() => element ? element.scrollIntoView() : {}}
+                        className={i === activeNavLinkIndex ? 'active' : ''}
+                        data-value={link.link}>
+                        {link.title}
+                    </Link>
                 </li>
             );
         }
 
-        return nav;
+        return navHtmlElements;
     }
 
-    render() {
-        return (
-            <div className="nav-container">
-                {/* dark background behind the main navigation, and hamburger menu */}
-                <div className='nav-background'></div>
+    const toggleNav = () => {
+        const nav = document.querySelector('.main-nav');
+        const hamburgerMenu = document.querySelector('.phone-nav');
+
+        if (nav.classList.contains('display')) {
+            nav.classList.remove('display');
+            hamburgerMenu.classList.remove('close');
+        } else {
+            nav.classList.add('display');
+            hamburgerMenu.classList.add('close');
+        }
+    }
+
+    return (
+        <div className="nav-container">
+
+            <div className='d-flex align-items-center justify-content-between'>
+
+                <Link to='/' onClick={() => document.querySelector('#home')?.scrollIntoView()}>
+                    <h2 className='app-title'>Sultan</h2>
+                </Link>
+
                 {/* hamburder menu */}
-                <div className='phone-nav'>
+                <button className='phone-nav d-flex flex-col align-items-center justify-content-center'
+                    onClick={() => toggleNav()}>
                     <div></div>
                     <div></div>
                     <div></div>
-                </div>
+                </button>
 
                 {/* main navigation */}
                 <nav className="main-nav" id='main-nav'>
-                    <ul>
-                        {this.state.navListItems}
+                    <h2 className='app-title text-center my-6'>Sultan</h2>
+                    <ul className='m-0 p-0 d-flex-md'>
+                        {getNavItems()}
                     </ul>
                 </nav>
             </div>
-        );
-    }
+        </div>
+    );
 }
