@@ -32,7 +32,6 @@ let shopaholic = {
     title: 'Shopaholic',
     description: "An ecommerce website, that allows users to create accounts, browse products, add items to their cart, checkout, view order history, and more",
     link: 'https://github.com/smob123/Shopaholic',
-    url: 'https://shopaholic.azurewebsites.net/',
     technologies: [
         'ASP.NET Core',
         'Entity Framework',

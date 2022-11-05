@@ -3,13 +3,17 @@
  */
 
 import { useEffect } from 'react';
-import { withRouter } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
+
+import withRouter from './withRouter';
 
 function ScrollToTop(props) {
 
+    const location = useLocation();
+
     useEffect(() => {
         window.scrollTo(0, 0);
-    }, [props.location.pathname]);
+    }, [location.pathname]);
 
     return props.children;
 }
