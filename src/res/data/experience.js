@@ -4,6 +4,11 @@
 
 const work = [
     {
+        title: 'Full-stack Web Developer',
+        date: '06/2021 - Present',
+        desc: "Currently working as a full-stack web developer at Squarehead Packeging Factory, maintaining an E-Commerce website. My responsibilities include, but not limited to developing new features to enhance the user experience and keeping the business ahead of its competition, leading a team of other developers, while ensuring that tasks are completed on time and within budget, and ensuring high software quality."
+    },
+    {
         title: 'Front-end Web Developer',
         date: '03/2020 - 06/2020',
         desc: "Worked as a front-end web developer at OpenLaw NZ, whe I helped with implementing new features, fixing existing bugs, as well as upgrading the website by implementing a new design, and adding new content."

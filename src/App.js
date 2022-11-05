@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import ReactGA from 'react-ga';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import ScrollToTop from './res/components/general/scrollToTop';
 import Nav from './res/components/home/nav';
 import Home from './res/pages/home';
@@ -18,14 +18,15 @@ export default function App() {
     }, []);
 
     return (
-
         <Router basename={process.env.PUBLIC_URL}>
             <div className='w-100'>
-                <ScrollToTop>
-                    <Nav />
-                    <Route exact path='/' component={Home} />
-                    <Footer />
-                </ScrollToTop>
+                <Nav />
+
+                <Routes>
+                    <Route path='/' element={<Home />} />
+                </Routes>
+
+                <Footer />
             </div>
         </Router>
     );
