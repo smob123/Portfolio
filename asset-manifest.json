@@ -1,30 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.0c277d5c.chunk.css",
-    "main.js": "/static/js/main.6d4a4152.chunk.js",
-    "main.js.map": "/static/js/main.6d4a4152.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.06b5035f.js",
-    "runtime-main.js.map": "/static/js/runtime-main.06b5035f.js.map",
-    "static/js/2.8173a285.chunk.js": "/static/js/2.8173a285.chunk.js",
-    "static/js/2.8173a285.chunk.js.map": "/static/js/2.8173a285.chunk.js.map",
+    "main.css": "/static/css/main.3a2a3ce6.css",
+    "main.js": "/static/js/main.983eefab.js",
+    "static/media/background.jpg": "/static/media/background.aa99e17561d5b19e5749.jpg",
+    "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/Montserrat-ExtraBold.ttf": "/static/media/Montserrat-ExtraBold.1944c8d1a118759a4435.ttf",
+    "static/media/Montserrat-SemiBold.ttf": "/static/media/Montserrat-SemiBold.fa8441f345d83a0bc4ec.ttf",
+    "static/media/OpenSans-Regular.ttf": "/static/media/OpenSans-Regular.1b0809d519837cb7aad3.ttf",
+    "static/media/waves.svg": "/static/media/waves.9176ead463c0a1870ad43daa55139334.svg",
+    "static/media/shopaholic.jpg": "/static/media/shopaholic.e347b7045e1d53b99ec2.jpg",
+    "static/media/tuqs.jpg": "/static/media/tuqs.77a8236672ed715e6a52.jpg",
+    "static/media/movies-app.jpg": "/static/media/movies-app.9d57ba0582afda449bb0.jpg",
+    "static/media/photorama.jpg": "/static/media/photorama.fbb3bd2ea83605e14d3e.jpg",
+    "static/media/profile-img.jpg": "/static/media/profile-img.5a6a8b097fd93ac92fa1.jpg",
+    "static/media/news-app.jpg": "/static/media/news-app.cd6d6a9eb80faa890e87.jpg",
+    "static/media/senior-watch.jpg": "/static/media/senior-watch.a3bf803d4e8ec79b02f6.jpg",
+    "static/media/instachat.jpg": "/static/media/instachat.4212a75e528ff69bb964.jpg",
     "index.html": "/index.html",
-    "static/css/main.0c277d5c.chunk.css.map": "/static/css/main.0c277d5c.chunk.css.map",
-    "static/js/2.8173a285.chunk.js.LICENSE.txt": "/static/js/2.8173a285.chunk.js.LICENSE.txt",
-    "static/media/styles.css": "/static/media/background.aa99e175.jpg",
-    "static/media/instachat.4212a75e.jpg": "/static/media/instachat.4212a75e.jpg",
-    "static/media/movies-app.9d57ba05.jpg": "/static/media/movies-app.9d57ba05.jpg",
-    "static/media/news-app.cd6d6a9e.jpg": "/static/media/news-app.cd6d6a9e.jpg",
-    "static/media/photorama.fbb3bd2e.jpg": "/static/media/photorama.fbb3bd2e.jpg",
-    "static/media/profile-img.5a6a8b09.jpg": "/static/media/profile-img.5a6a8b09.jpg",
-    "static/media/senior-watch.a3bf803d.jpg": "/static/media/senior-watch.a3bf803d.jpg",
-    "static/media/shopaholic.e347b704.jpg": "/static/media/shopaholic.e347b704.jpg",
-    "static/media/tuqs.77a82366.jpg": "/static/media/tuqs.77a82366.jpg",
-    "static/media/waves.fc24dc91.svg": "/static/media/waves.fc24dc91.svg"
+    "main.3a2a3ce6.css.map": "/static/css/main.3a2a3ce6.css.map",
+    "main.983eefab.js.map": "/static/js/main.983eefab.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.06b5035f.js",
-    "static/js/2.8173a285.chunk.js",
-    "static/css/main.0c277d5c.chunk.css",
-    "static/js/main.6d4a4152.chunk.js"
+    "static/css/main.3a2a3ce6.css",
+    "static/js/main.983eefab.js"
   ]
 }
