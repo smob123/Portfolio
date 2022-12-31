@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3a2a3ce6.css",
-    "main.js": "/static/js/main.983eefab.js",
+    "main.js": "/static/js/main.0c63bcae.js",
     "static/media/background.jpg": "/static/media/background.aa99e17561d5b19e5749.jpg",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/Montserrat-ExtraBold.ttf": "/static/media/Montserrat-ExtraBold.1944c8d1a118759a4435.ttf",
@@ -10,18 +10,18 @@
     "static/media/waves.svg": "/static/media/waves.9176ead463c0a1870ad43daa55139334.svg",
     "static/media/shopaholic.jpg": "/static/media/shopaholic.e347b7045e1d53b99ec2.jpg",
     "static/media/tuqs.jpg": "/static/media/tuqs.77a8236672ed715e6a52.jpg",
+    "static/media/news-app.jpg": "/static/media/news-app.279a46bfd868c01d5f8d.jpg",
     "static/media/movies-app.jpg": "/static/media/movies-app.9d57ba0582afda449bb0.jpg",
     "static/media/photorama.jpg": "/static/media/photorama.fbb3bd2ea83605e14d3e.jpg",
     "static/media/profile-img.jpg": "/static/media/profile-img.5a6a8b097fd93ac92fa1.jpg",
-    "static/media/news-app.jpg": "/static/media/news-app.cd6d6a9eb80faa890e87.jpg",
     "static/media/senior-watch.jpg": "/static/media/senior-watch.a3bf803d4e8ec79b02f6.jpg",
     "static/media/instachat.jpg": "/static/media/instachat.4212a75e528ff69bb964.jpg",
     "index.html": "/index.html",
     "main.3a2a3ce6.css.map": "/static/css/main.3a2a3ce6.css.map",
-    "main.983eefab.js.map": "/static/js/main.983eefab.js.map"
+    "main.0c63bcae.js.map": "/static/js/main.0c63bcae.js.map"
   },
   "entrypoints": [
     "static/css/main.3a2a3ce6.css",
-    "static/js/main.983eefab.js"
+    "static/js/main.0c63bcae.js"
   ]
 }
