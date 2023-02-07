@@ -19,16 +19,16 @@ export default function About() {
 
                     <h2>
                         <div className='stripe'></div>
-                            About Me
-                        </h2>
+                        About Me
+                    </h2>
                     <div className='dots'></div>
                     <div className='circle'></div>
                     <span>01.</span>
                 </div>
 
                 <h3 className='underline mb-6'>
-                    My name is Sultan Banabila, I am a passionate web &#38; mobile developer, with 1 year of professional experience.
-                    </h3>
+                    My name is Sultan Banabila, I am a passionate web &#38; mobile developer, with 2 years of professional experience.
+                </h3>
 
                 {/*a subheading */}
                 <span className='light-text small-text'>
@@ -36,7 +36,7 @@ export default function About() {
                     creating native android applications, as well as developing
                     hybrid application that work on both Android and IOS using
                     a variety of frameworks.
-                    </span>
+                </span>
             </div>
         </div>
     );
