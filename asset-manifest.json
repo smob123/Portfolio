@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.3a2a3ce6.css",
-    "main.js": "/static/js/main.739d587b.js",
-    "static/media/background.jpg": "/static/media/background.aa99e17561d5b19e5749.jpg",
-    "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
-    "static/media/Montserrat-ExtraBold.ttf": "/static/media/Montserrat-ExtraBold.1944c8d1a118759a4435.ttf",
-    "static/media/Montserrat-SemiBold.ttf": "/static/media/Montserrat-SemiBold.fa8441f345d83a0bc4ec.ttf",
-    "static/media/OpenSans-Regular.ttf": "/static/media/OpenSans-Regular.1b0809d519837cb7aad3.ttf",
-    "static/media/instachat.jpg": "/static/media/instachat.ece39b000271d6f05c93.jpg",
-    "static/media/waves.svg": "/static/media/waves.9176ead463c0a1870ad43daa55139334.svg",
-    "static/media/shopaholic.jpg": "/static/media/shopaholic.e347b7045e1d53b99ec2.jpg",
-    "static/media/tuqs.jpg": "/static/media/tuqs.77a8236672ed715e6a52.jpg",
-    "static/media/news-app.jpg": "/static/media/news-app.279a46bfd868c01d5f8d.jpg",
-    "static/media/movies-app.jpg": "/static/media/movies-app.9d57ba0582afda449bb0.jpg",
-    "static/media/photorama.jpg": "/static/media/photorama.fbb3bd2ea83605e14d3e.jpg",
-    "static/media/profile-img.jpg": "/static/media/profile-img.5a6a8b097fd93ac92fa1.jpg",
-    "static/media/senior-watch.jpg": "/static/media/senior-watch.a3bf803d4e8ec79b02f6.jpg",
-    "index.html": "/index.html",
-    "main.3a2a3ce6.css.map": "/static/css/main.3a2a3ce6.css.map",
-    "main.739d587b.js.map": "/static/js/main.739d587b.js.map"
+    "main.css": "/Portfolio/static/css/main.49040934.css",
+    "main.js": "/Portfolio/static/js/main.97c0c68a.js",
+    "static/media/background.jpg": "/Portfolio/static/media/background.aa99e17561d5b19e5749.jpg",
+    "static/media/Montserrat-Regular.ttf": "/Portfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/Montserrat-ExtraBold.ttf": "/Portfolio/static/media/Montserrat-ExtraBold.1944c8d1a118759a4435.ttf",
+    "static/media/Montserrat-SemiBold.ttf": "/Portfolio/static/media/Montserrat-SemiBold.fa8441f345d83a0bc4ec.ttf",
+    "static/media/OpenSans-Regular.ttf": "/Portfolio/static/media/OpenSans-Regular.1b0809d519837cb7aad3.ttf",
+    "static/media/instachat.jpg": "/Portfolio/static/media/instachat.ece39b000271d6f05c93.jpg",
+    "static/media/waves.svg": "/Portfolio/static/media/waves.9176ead463c0a1870ad43daa55139334.svg",
+    "static/media/shopaholic.jpg": "/Portfolio/static/media/shopaholic.e347b7045e1d53b99ec2.jpg",
+    "static/media/tuqs.jpg": "/Portfolio/static/media/tuqs.77a8236672ed715e6a52.jpg",
+    "static/media/news-app.jpg": "/Portfolio/static/media/news-app.279a46bfd868c01d5f8d.jpg",
+    "static/media/movies-app.jpg": "/Portfolio/static/media/movies-app.9d57ba0582afda449bb0.jpg",
+    "static/media/photorama.jpg": "/Portfolio/static/media/photorama.fbb3bd2ea83605e14d3e.jpg",
+    "static/media/profile-img.jpg": "/Portfolio/static/media/profile-img.5a6a8b097fd93ac92fa1.jpg",
+    "static/media/senior-watch.jpg": "/Portfolio/static/media/senior-watch.a3bf803d4e8ec79b02f6.jpg",
+    "index.html": "/Portfolio/index.html",
+    "main.49040934.css.map": "/Portfolio/static/css/main.49040934.css.map",
+    "main.97c0c68a.js.map": "/Portfolio/static/js/main.97c0c68a.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a2a3ce6.css",
-    "static/js/main.739d587b.js"
+    "static/css/main.49040934.css",
+    "static/js/main.97c0c68a.js"
   ]
 }
