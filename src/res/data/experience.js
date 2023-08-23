@@ -4,9 +4,14 @@
 
 const work = [
     {
+        title: 'Application Developer',
+        date: '01/2023 - Present',
+        desc: "Charged with the creation and upkeep of diverse web applications, including Business Profiles, as well as, an Operations Management System, through the use of multiple web development technologies."
+    },
+    {
         title: 'Full-stack Web Developer',
-        date: '06/2021 - Present',
-        desc: "Currently working as a full-stack web developer at Squarehead Packeging Factory, maintaining an E-Commerce website. My responsibilities include, but not limited to developing new features to enhance the user experience and keeping the business ahead of its competition, leading a team of other developers, while ensuring that tasks are completed on time and within budget, and ensuring high software quality."
+        date: '06/2021 - 01/2023',
+        desc: "Worked as a full-stack web developer, I was responsible for maintaining an E-Commerce website. My responsibilities included, but were not limited to developing new features to enhance the user experience and keeping the business ahead of its competition, leading a team of other developers, while ensuring that tasks are completed on time and within budget, and ensuring high software quality."
     },
     {
         title: 'Front-end Web Developer',
